@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: write
-"""Fetch settled oil futures closes and recent oil news; save both to prices.json.
+Fetch settled oil futures closes and recent oil news; save both to prices.json.
 Runs in GitHub Actions every weekday (see .github/workflows/prices.yml)."""
 import datetime as dt
 import email.utils
