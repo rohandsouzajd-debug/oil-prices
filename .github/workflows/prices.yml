@@ -3,7 +3,7 @@ name: Update oil prices
 on:
   schedule:
     - cron: "30 22 * * 1-5"   # 22:30 UTC Mon–Fri, after US futures settle
-    - cron: "15 3 * * 1-6"    # backup run 03:15 UTC (07:15 Dubai)
+    - cron: "15 3 * * 1-6"    # backup run 01:15 UTC (05:15 Dubai)
   workflow_dispatch:           # adds a "Run workflow" button for manual runs
 
 permissions:
