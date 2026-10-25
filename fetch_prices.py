@@ -1,8 +1,14 @@
-"""Fetch settled oil futures closes from Yahoo Finance and save them to prices.json.
-Runs in GitHub Actions every weekday evening (see .github/workflows/prices.yml)."""
+"""Fetch settled oil futures closes and recent oil news; save both to prices.json.
+Runs in GitHub Actions every weekday (see .github/workflows/prices.yml)."""
 import datetime as dt
+import email.utils
+import html
 import json
+import re
 import time
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 
 import yfinance as yf
@@ -14,7 +20,20 @@ TICKERS = {
     "rbob": ("RB=F", "NYMEX RBOB (gasoline) futures, $/gal"),
 }
 
+NEWS_QUERIES = [
+    "oil prices", "Brent crude", "OPEC+ oil output", "Strait of Hormuz tanker",
+    "EIA crude inventories", "diesel refinery margins", "tanker freight rates VLCC",
+    "Russia oil refinery drone strike", "Iran oil exports", "jet fuel naphtha fuel oil market",
+]
+RSS_FEEDS = [
+    ("OilPrice.com", "https://oilprice.com/rss/main"),
+    ("EIA Today in Energy", "https://www.eia.gov/rss/todayinenergy.xml"),
+]
+NEWS_HOURS = 72  # covers weekends
+UA = {"User-Agent": "Mozilla/5.0 (oil-prices feed; GitHub Actions)"}
 
+
+# ───────────── prices ─────────────
 def settled_closes(ticker, period):
     last_err = None
     for attempt in range(4):
@@ -37,6 +56,101 @@ def settled_closes(ticker, period):
     return rows
 
 
+# ───────────── news ─────────────
+def clean(text, limit=400):
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text or ""))
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:limit] + ("…" if len(text) > limit else "")
+
+
+def parse_date(s):
+    try:
+        d = email.utils.parsedate_to_datetime(s)
+        return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
+    except Exception:
+        try:
+            return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except Exception:
+            return None
+
+
+def get(url):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read()
+
+
+def rss_items(xml_bytes, default_source, tag):
+    items = []
+    root = ET.fromstring(xml_bytes)
+    for it in root.iter("item"):
+        title = clean(it.findtext("title"), 300)
+        src_el = it.find("source")
+        source = src_el.text.strip() if src_el is not None and src_el.text else default_source
+        if source != default_source and title.endswith(" - " + source):
+            title = title[: -len(" - " + source)]
+        summary = clean(it.findtext("description"))
+        if summary.startswith(title[:40]):  # Google News descriptions just repeat the title
+            summary = ""
+        items.append({"title": title, "source": source, "published": parse_date(it.findtext("pubDate") or ""),
+                      "summary": summary, "link": (it.findtext("link") or "").strip(), "topic": tag})
+    return items
+
+
+def yahoo_news():
+    out = []
+    for n in (yf.Ticker("BZ=F").news or []):
+        c = n.get("content", n)
+        title = c.get("title") or ""
+        pub = c.get("pubDate") or c.get("displayTime")
+        if not pub and n.get("providerPublishTime"):
+            pub = dt.datetime.fromtimestamp(n["providerPublishTime"], dt.timezone.utc).isoformat()
+        provider = c.get("provider") or {}
+        link = (c.get("canonicalUrl") or {}).get("url") or n.get("link") or ""
+        out.append({"title": clean(title, 300), "source": provider.get("displayName") or n.get("publisher") or "Yahoo Finance",
+                    "published": parse_date(pub or ""), "summary": clean(c.get("summary") or ""),
+                    "link": link, "topic": "Yahoo Finance: Brent"})
+    return out
+
+
+def fetch_news():
+    items, errors = [], []
+    for q in NEWS_QUERIES:
+        url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(f"{q} when:3d")
+               + "&hl=en-US&gl=US&ceid=US:en")
+        try:
+            items += rss_items(get(url), "Google News", q)[:12]
+        except Exception as e:
+            errors.append(f"Google News '{q}': {e}")
+        time.sleep(1)
+    for name, url in RSS_FEEDS:
+        try:
+            items += rss_items(get(url), name, name)[:15]
+        except Exception as e:
+            errors.append(f"{name}: {e}")
+    try:
+        items += yahoo_news()
+    except Exception as e:
+        errors.append(f"Yahoo news: {e}")
+
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=NEWS_HOURS)
+    seen, keep = set(), []
+    for it in items:
+        if not it["title"] or (it["published"] and it["published"] < cutoff):
+            continue
+        key = re.sub(r"[^a-z0-9]", "", it["title"].lower())[:70]
+        if key in seen:
+            continue
+        seen.add(key)
+        keep.append(it)
+    epoch = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
+    keep.sort(key=lambda x: x["published"] or epoch, reverse=True)
+    for it in keep:
+        it["published"] = it["published"].strftime("%Y-%m-%d %H:%M UTC") if it["published"] else ""
+    return {"fetched_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "window_hours": NEWS_HOURS, "count": len(keep[:80]), "items": keep[:80], "errors": errors}
+
+
 def main():
     out = {"updated_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
            "source": "Yahoo Finance (yfinance)"}
@@ -52,9 +166,14 @@ def main():
             out["brent_52w"] = {"low": lo[1], "low_date": lo[0], "high": hi[1], "high_date": hi[0]}
     out["session_date"] = out["brent"]["date"]
     out["dates_match"] = len({out[k]["date"] for k in TICKERS}) == 1
+    try:
+        out["news"] = fetch_news()
+    except Exception as e:  # never let news problems stop the prices
+        out["news"] = {"count": 0, "items": [], "errors": [str(e)]}
     with open("prices.json", "w") as f:
-        json.dump(out, f, indent=1)
+        json.dump(out, f, indent=1, ensure_ascii=False)
     print(json.dumps({k: (out[k]["date"], out[k]["close"]) for k in TICKERS}))
+    print(f"News items: {out['news']['count']}; errors: {out['news'].get('errors')}")
 
 
 if __name__ == "__main__":
