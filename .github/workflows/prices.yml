@@ -14,7 +14,7 @@ from zoneinfo import ZoneInfo
 import yfinance as yf
 
 TICKERS = {
-    "brent": ("BZ=F", "Brent crude futures, $/bbl"),
+ "brent": ("BZ=F", "Brent crude futures, $/bbl"),
     "wti": ("CL=F", "WTI crude futures, $/bbl"),
     "ulsd": ("HO=F", "NYMEX ULSD (diesel) futures, $/gal"),
     "rbob": ("RB=F", "NYMEX RBOB (gasoline) futures, $/gal"),
