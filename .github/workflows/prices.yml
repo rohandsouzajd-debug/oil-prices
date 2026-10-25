@@ -1,14 +1,4 @@
-name: Update oil prices
-
-on:
-  schedule:
-    - cron: "30 22 * * 1-5"   # 22:30 UTC Mon–Fri, after US futures settle
-    - cron: "15 3 * * 2-6"    # backup run 03:15 UTC (07:15 Dubai)
-  workflow_dispatch:           # adds a "Run workflow" button for manual runs
-
-permissions:
-  contents: write
-Fetch settled oil futures closes and recent oil news; save both to prices.json.
+"""Fetch settled oil futures closes and recent oil news; save both to prices.json.
 Runs in GitHub Actions every weekday (see .github/workflows/prices.yml)."""
 import datetime as dt
 import email.utils
@@ -188,21 +178,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install yfinance
-      - run: python fetch_prices.py
-      - name: Save prices.json
-        run: |
-          git config user.name "price-bot"
-          git config user.email "price-bot@users.noreply.github.com"
-          git add prices.json
-          git diff --cached --quiet || git commit -m "Prices $(date -u +%F)"
-          git push
