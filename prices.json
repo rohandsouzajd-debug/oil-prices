@@ -1,18 +1,14 @@
 {
- "updated_utc": "2026-11-23 09:07 UTC",
+ "updated_utc": "2026-11-24 06:18 UTC",
  "source": "Yahoo Finance (yfinance)",
  "brent": {
   "ticker": "BZ=F",
   "description": "Brent crude futures, $/bbl",
-  "date": "2026-11-20",
-  "close": 92.57,
-  "prev_date": "2026-11-19",
-  "prev_close": 91.98,
+  "date": "2026-11-23",
+  "close": 89.37,
+  "prev_date": "2026-11-20",
+  "prev_close": 92.57,
   "history": [
-   [
-    "2026-11-02",
-    104.77
-   ],
    [
     "2026-11-03",
     103.6
@@ -68,6 +64,10 @@
    [
     "2026-11-20",
     92.57
+   ],
+   [
+    "2026-11-23",
+    89.37
    ]
   ]
  },
@@ -80,15 +80,11 @@
  "wti": {
   "ticker": "CL=F",
   "description": "WTI crude futures, $/bbl",
-  "date": "2026-11-20",
-  "close": 83.98,
-  "prev_date": "2026-11-19",
-  "prev_close": 83.21,
+  "date": "2026-11-23",
+  "close": 80.17,
+  "prev_date": "2026-11-20",
+  "prev_close": 83.98,
   "history": [
-   [
-    "2026-11-02",
-    96.46
-   ],
    [
     "2026-11-03",
     96.09
@@ -144,21 +140,21 @@
    [
     "2026-11-20",
     83.98
+   ],
+   [
+    "2026-11-23",
+    80.17
    ]
   ]
  },
  "ulsd": {
   "ticker": "HO=F",
   "description": "NYMEX ULSD (diesel) futures, $/gal",
-  "date": "2026-11-20",
-  "close": 3.9216,
-  "prev_date": "2026-11-19",
-  "prev_close": 3.9514,
+  "date": "2026-11-23",
+  "close": 3.6975,
+  "prev_date": "2026-11-20",
+  "prev_close": 3.9216,
   "history": [
-   [
-    "2026-11-02",
-    4.4216
-   ],
    [
     "2026-11-03",
     4.5306
@@ -214,21 +210,21 @@
    [
     "2026-11-20",
     3.9216
+   ],
+   [
+    "2026-11-23",
+    3.6975
    ]
   ]
  },
  "rbob": {
   "ticker": "RB=F",
   "description": "NYMEX RBOB (gasoline) futures, $/gal",
-  "date": "2026-11-20",
-  "close": 2.5027,
-  "prev_date": "2026-11-19",
-  "prev_close": 2.4951,
+  "date": "2026-11-23",
+  "close": 2.4054,
+  "prev_date": "2026-11-20",
+  "prev_close": 2.5027,
   "history": [
-   [
-    "2026-11-02",
-    2.9001
-   ],
    [
     "2026-11-03",
     2.9355
@@ -284,655 +280,659 @@
    [
     "2026-11-20",
     2.5027
+   ],
+   [
+    "2026-11-23",
+    2.4054
    ]
   ]
  },
- "session_date": "2026-11-20",
+ "session_date": "2026-11-23",
  "dates_match": true,
  "news": {
-  "fetched_utc": "2026-11-23 09:07 UTC",
+  "fetched_utc": "2026-11-24 06:19 UTC",
   "window_hours": 72,
   "count": 80,
   "items": [
    {
-    "title": "British endurance athlete Lewis Pugh swims the Strait of Hormuz",
-    "source": "The Independent",
-    "published": "2026-11-23 08:54 UTC",
+    "title": "ROI-Middle East crude oil exports trend lower amid fake Iran stalemate: Russell",
+    "source": "marketscreener.com",
+    "published": "2026-11-24 05:53 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMm9qa2llenU1R1VUblR3TjNXcDJIMlYwb1JjZWVhYWlDc05HbHA3b3JDcHNhSm85bFlhODc0a2Y4OTM5YXhsU0lZc3hQQkJWUHlyZWZvZWlxdnVEUkRLQy0xaEFBbWRUS055WVo2SUhQRWRoWjNIR0hZdGEyY0ZOd1p5VFpQNmloc080aTBFRWJJSnhxcXc5UVdhMHJlSmFYbXl0eEp4a18?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Drones target Russian oil facilities in three regions, fires reported at refineries",
-    "source": "Hromadske",
-    "published": "2026-11-23 08:43 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONjI2NXhVMERXY0d5WklmNWRsaVc1dDVrSGF3SWYtQXV0SFJyUV9uR3JrYUt2MElXNndSVUNyVEN4QVZVdlg5d192X0g3VUZzYno3UURNX0NyeTk2eTk4TG9CTlZFMjEyMG16VEpGUEhKbm9LSk4zYmszZzJoWkxkOEt3WUN5MXJaVTI2cVdpS3hoTlZMVzYyQlk4LTZwcW5xNEFnVmF5RG10MGdwSkJ5UnJvWDJSZU500gG-AUFVX3lxTE50VnV5cE00TXdFSEJmM2VPSnRMdlkwbW1aRG4zMFgzaVlBZzhtbVJmRXZnYkVtYjB1eGxCd19WMVo1YTBTNFJRVElINlNEd2UxQnZ1VnpGZmJKQmpuVlVaUEJtS3Q0WVgxa2stLTl3TURWbW1iMnVZOWIzdlF4bDV4U3pQb3luTWFidHpSckJDSW12c1ZKMHR3djJIMzYzM1RMcFQ0c0FWdTRVSDUtRjZadFBscktqc3l3anRpTkE?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "European Natural Gas Prices Surge 8.6% as Cold Snap Looms",
-    "source": "OilPrice.com",
-    "published": "2026-11-23 02:30 UTC",
-    "summary": "Natural gas prices in Europe started the week with a rise to 96.075 euros per MWh, gaining 8.6% from Friday as weather forecasts saw colder weather coming to the continent, which is struggling with record-low inventories. The benchmark TTF price is equal to $105.49 per MWh and is the highest daily price rise in over a week, Bloomberg reported today. Even though the TTF price has dropped from the f…",
-    "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-86-as-Cold-Snap-Looms.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Drones attack Kaleykino oil pumping station in Russia's Tatarstan – social media",
-    "source": "Ukrinform",
-    "published": "2026-11-23 08:24 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWXg5ZEQzNWpSR3l5dU5xUnA3d2pFVnRtSVRydmZENWFKU3JaaVhRbG1NWW1jQ0gwN0xiV184TkxKdDJvdHJ0N1RRYUhUTDVnbUhBVjF0N3dWR2NpZEFSbHQwMlFxQlc4V0FOenAwTDN6MnZaekVRLWg2T2g2SnNsMktxX2J4QjBhajUxWmlfWkhGQ2RkMEYtbFlvcWxaLXBWWEtkd3cwNTJ3U2dOeDQ4NDdLdkJiOTdJN3Y0WnRJZ3FVZGxvS1HSAcsBQVVfeXFMTTNfVmRrSm0zdEtBTDM0SUo4OHAxYm90UXJnV290MEg3QVFSVXhJZEFwTjlwYWN0alVoRE1acjV0ZVNvdGVXOTVrWC02ckZtTlNPcUU4VkdMVU1DY2JMaDF6eFVUdC1hbXVCNGt3RWc1d0pKY0xOdDBYUzFKNG44TkxGMllyVktpY3hlRUFxNFI5MXZXXzlKbWZhaEhDdGdSLTFSZUVUbFltSkpsTFpYNC1LZHpiSUZPVUx6VjdfU2pFZmhReF9jdHpFcnc?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Oil Prices Reduce As Supply Risk Eases, Brent Falls Below $90",
-    "source": "MarketForces Africa",
-    "published": "2026-11-23 08:11 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQzJXV25MRGFMazdWZFNPQzVNOS1HMlNfOWVLVlMzX0Z4cHVsaVlLV3NiZ2pDSDBLaGozdlNxbnU4QnhPeWlISWFaeWFxRUs2RjU5cVhxclA3Q1F5MVNmTmRaSzMtd1dnblFMUXlzSDk2WHljN1ZVclE1MEdTaEluZnlraVJmN05YTVNsVnIzVQ?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Fake Iran Tanker Highlights Uncertainty Around Hormuz Traffic",
-    "source": "Bloomberg.com",
-    "published": "2026-11-23 08:09 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQjhUVlhiN1o4Y294bTNYVmxvSXZYWWJGUXNYNGVzY1h5Tms0Nkh1VmFCdkdIeWxRd2FQZG1va3BuUW9EanM5b1RTYU1ZZlAxQ3dzWnNVdkJhXzBjazRybXg4REI4NmFSc3p4WldYT0tGT1BGXzhFamtmYmpWR29xdFdoOXNpdXhlWE9mb2xVQVNZUDRTd0wwRG1jLXhuVDZ1dTI5elF4T0NGTUR5cmxwV2xB?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Iran Can Go Up to Two Months Without Oil Exports Before Cutting Output, Analysts Say",
-    "source": "EnergyNow.com",
-    "published": "2026-11-23 08:08 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQjNHT255Y21VbjhaQ2l1NnhycmN0NlhUUENFR2xRTnVHT3BPaEtnUDc0RUxwR1Vrcmx5bnh0YXpMTnRBUWtPWW9JS0JFd1FWcENCX1MwNUwtUl9MRHZkTEFTRlBBNnltTi16LXJmT3BMR21yd1U4MVFxRzctTkx6Z1Jyblo1amduZlIyd3ZzTWk2UFkzdGFrRFR1VjkwWWZDYWJhYlpqNkR4aHJvNHQ4ekFpQmY?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYW1rRU94NkRQUkh3OS1iVnlzS0liTG1JM1NmNVhBNEFKZlRmVVpnbHB6R1ozSkFvdFpjZ2xLT3k0Ty1NS3NHOGJYTmhtbHFNcDVYeWF0bjJsWEE1eUFkaXAyNWdORkhNVHEzd3BJVXRuLUlpRFhPbG1ESC0wUzJpckp6Ty1odFFGRTFtOVBCUWhRQ29ibXVhSVNkMXdCZ1RRcEFINUJScDE1NHBiZnZhb0IxWDNuSktXYnJvdmZPeDRRNkp6cUtObFpzWQ?oc=5",
     "topic": "Iran oil exports"
    },
    {
-    "title": "Major Russian oil refinery in flames after drone strike on Perm",
-    "source": "RBC-Ukraine",
-    "published": "2026-11-23 08:00 UTC",
+    "title": "Oil extends falls amid growing supply; US crude at below $80/barrel",
+    "source": "ICIS",
+    "published": "2026-11-24 05:08 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaXMyb1E2MFMwT2JsX0FVUl9oeWNNOHotLUZkRlNrN1REWThEeHZaN2hNclQ5Z1FKUm9mZHZCNGVYeEEyY21SMlYtYk9hbTlTT3Nwb1VQTU8wMmJyQ3pBZVQzbEUzOTFFSDlOOVhqNDMxYnVkUUZPSm1WWHVmZ1cwcGdXVHZyWUVLTE9xZ21ENW90Wk5P?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Tanker inferno greets UN oceans advocate’s swim through Hormuz",
-    "source": "Splash247",
-    "published": "2026-11-23 07:31 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHJXaVBaTmpHRnNrZVBvbXE4d2xSVEs1UVo4Qk9aY0lReHJYNS1NdTlpUEU3Q0RYUmdxWHd6ZHJ6OFhvQXFWYUo5U1dzNE9YLVFrZG1MdnZaVll4Zm5ONndqYmprU3FGeC1UeUI4UUMtdm81alF0YWFiaEY0OWJzUmR5THdnaXVyM0NjaA?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "EU Green Energy Giants Slam €40 Billion Budget Cut",
-    "source": "OilPrice.com",
-    "published": "2026-11-23 01:30 UTC",
-    "summary": "Companies active in alternative energy and related technology have slammed the EU for plans to reduce the size of the European Competitiveness Fund as part of a broader 40 billion euro (~$44 billion) budget cut. According to the group, featuring 75 companies and industry associations, the European Competitiveness Fund is vital for European businesses if they want to catch up with China and the Uni…",
-    "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Green-Energy-Giants-Slam-40-Billion-Budget-Cut.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Ukrainian Drones Strike Russian Oil Facilities in Tatarstan and Rostov - Oj",
-    "source": "Odessa Journal",
-    "published": "2026-11-23 07:22 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbjNsYURZNXkyS1FpeWdKWE1yZ3l6aXJLNUJha0ZHNmEySGdhejdpZWZsZDFQWVpnQVh2TVJ4QTNhZXlnS0dtMldIZHNMakFndXhvNGhsOE82eTk0dGRjTUtOdFRMcHdEWGxJUlRVX2lsSTVtcWtyUXZBbmJZdWlMSE5naXVjZEZiMDlIS21fYUR1SVhzRFgyam94VFFJLWRRUkJERTFxMA?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert",
-    "source": "Gulf News",
-    "published": "2026-11-23 07:22 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Fires Break Out at Novoshakhtinsk and Perm Oil Refineries After Ukrainian Drone Attacks",
-    "source": "Мілітарний",
-    "published": "2026-11-23 07:18 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcWFtM05QR21hNlB3M0xzNnFhQkpJa2RGV2F5TG50bi1XazZaZ0hqZjZmN1VtWEdndTZ2M3FJaWdJbXY5bnItZWtsMl9qTlNncE1QcUN3bzlLcFZ3bVNibW9kRGozM09nbnV0MWxpbWNEaDNJSWRLZVBqSC1SeHRmVkpES211SlNWcW9oZEI2UkpjbGk3ZF82Z2YtWUh0cE1qS21oSmRIVl9nd3JlTTZFTVdGRnYxUVZyOXF3?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Oil Futures: Crude moves sideways as ample supply offsets tensions",
-    "source": "Quantum Commodity Intelligence",
-    "published": "2026-11-23 07:16 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWU1BRjF2ODVyRzE3WkdMaDZRV2xEWjdDNGZoQ2NGaHRCdkZ4di00M21zZGpxY20tbUtOOXdHZkRBVzIxd0pHdEFQdWRUZlJYOU9RY1ItU29QZkVyRUF2Yk5qRVJJWERKdThBS2pOcmpweTZnclNxLW0zZE5CUEFQcVlERVkxdzBITHBTOTdWZW0wdktRZEg4bFBGRHUwM3Z4cGFfdnpiOGJtVENj?oc=5",
-    "topic": "Brent crude"
-   },
-   {
-    "title": "Why Is Diesel Still Expensive Despite Falling Oil Prices?",
-    "source": "Modern Diplomacy",
-    "published": "2026-11-23 07:10 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa1dUYlNoQTVfc2JGXzJES3RTUDlhbmV1YjNHaFBSLXIzTzJZZHRKZ0pVWG5jbTNKa2tib1Z3a3V4WjAzOFpXY21CdjZQRm9sMVRvTTJKRGRXZG9vMU1YLXFxWTdfWXhkV3ZzMnhHanhMWm45Z3psbG9HSFloSmRVM3FLMGNPNjhYS3Z2bmtya2FIR2ZleDk2OXc3dw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS3NvNkJXbVNKOG50UER2VDltNHdUbTJzRVhHQWk4LWpQZkVLUzlpd3RXQ1dQelJBMXltNGJ4Z0plZk5DS0FWcTZZbFctRU5MZkFPV1ZJZGxwOHk1R1p2eThVSy1kRHBDS1RLZW1lWkhfMXYwZmJXNk9zZm10VHVsYVprMmxtY0dDUENhbU5TN0FzRTFhYkppX2dXeXpoWnhPaHYyYmMyNngtdjJxemtZNFRCUGhyRHZvUGExZ0NKMU1ydlM3ZGdiYQ?oc=5",
     "topic": "oil prices"
    },
    {
-    "title": "Oil falls as robust Gulf exports offset Iran escalation, supply glut risks",
-    "source": "Investing.com",
-    "published": "2026-11-23 07:03 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2dUaE1zbTZjS19zVGRXZ2FLQ2Qxb2ZhbzJINGYyQjJyWThSbnEtVTJDODlLeWx0MUxvMUxFZ2lsVDV1Q2tycnBsYV9qTGxMckdsWFpmMURfT3M1VHFiV21BU2R6aUZJX2xLTXo3RENDTG1lZEdSZXF1bUtnUUtGMzlzd01GYjMyMjhfZ09QS2l1ODZNb0EtTzltaTM0SjdlUm05T1dRSE9HOHZRX2E5eW15YmJUdXdIMzV3NEZYRTRkOWs0SjBKYQ?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "After a drone attack, one of Russia’s most technologically advanced oil refineries caught fire in Perm.",
-    "source": "Українські Національні Новини (УНН)",
-    "published": "2026-11-23 07:00 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHVEODBsbzJZZmxPb3BHOFAwdXVmcTNIa1ZUdnZpREZzX1ZGaVVKMjV6Q2s3V2U3c1VEN0FDbkU1NUVsQ3BrcS01dGE2VFdEQ3BsRm5zdmtHcW00ZnR4RjVCN3hwb3k2YlI1MVZCWnZmbjJyclM5dF9GXzFDT0tuZG0tQUI5OE1OYUllN2hhTzVBNnNma0NYMnZiQkV1N0lnamxUSUxIemc2ZUVBRnVVeE0tLUJwbE9sMHpPT3RqbUfSAb8BQVVfeXFMTWQtcnN2VDcwdjgxZVh3aGZPRGpMeFFhU25mRU1GLXB1M0R5VEVBS1NFbmZMLW9ndnJXekJLblk2QVl2ZTVGRnhPY2JtN0tmekQwMVQ4U0djS292QmoydlpQSElQOGdrSTB1QXR4cGhFeTE1aVlqQ3lRTG52WDZGekpjd3JNOUxkSkM3ZGFsVXB2a051WXZvc2I1d0padmtjUE05dTBETG9VZkhOZnhadER3S0tWa3MyQkJxY09BbkE?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Brent Crude Nearly Doubles, India Spends an Extra $6 Billion on Oil and Gas Imports in October",
-    "source": "BigGo Finance",
-    "published": "2026-11-23 06:56 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnTlItZnJSc0ZyZWFIUUE4NzljcTN6ejNBdGlicENSWXhfNGNTcGNDU3M1T1R5a0ptajliQ3ZoVWkxVVFaS0lPQzQ4SHZENlFCWXROMUZpSXBud0o1OE9tV3RTLUVDSS1weFhPVUlyTng0Z3Z6WkE?oc=5",
-    "topic": "Brent crude"
-   },
-   {
-    "title": "Industrial facility damaged in drone attack on Russia's Perm Krai, fire at oil refinery reported – photo, video",
-    "source": "Українська правда",
-    "published": "2026-11-23 06:50 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BcHRJZk44U284SE9ZYXg2T2dkeEFzSk51a1VjNW9SbXRXanpKaXVoYko4Z1hVdDZmNFctdU9IT1drN3lmTUZFZDFuUExZaHNvZXZlTFhoZ2NVMGZqQ20xbC1BQ2jSAXBBVV95cUxQdm1VOFdWLUtWeGFrRHFpRnhreDZmN1p0bzdaejU0enBucUlQemdpLTIzLWplQ2RseHJRMERUQWRseTRkX1dMRzdLWEpDRXhfUHVYNGRIUFQtSWFpZDdTVGtla1RrZmxRQTRPdUtuczF1?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Ukrainian Drones Set Russian Oil Infrastructure Ablaze in Twin Strikes Deep Inside Russia",
-    "source": "Kyiv Post",
-    "published": "2026-11-23 06:49 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HbjljbWplWThFbmROc0VZV3BiYXZqQTYxM25sMV9lbFY0RENNU09OYTZhay11UGExTks0S084Z2xVUVduWTAxeUNlNA?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Oil prices fall as Middle East supply recovers, surplus concerns mount",
-    "source": "Anadolu Ajansı",
-    "published": "2026-11-23 06:46 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTC1CNjZIVnRKSVhBUFlteUZwdU9sSm9XS094aDlrVzdKWFd6bWkzSm1LUThmOVpLbXF6eFY2WTVfc1ZnMmxQMGFhWk9oc1FIUzJtQ3ZUOGdDX0VLUmxuam5ud3VMeFM2UE9PYURLZkVwRW91UWVLeFhaVUR3WEh1R1YxbTZWNFRtai1OTVU3N09sTGdwSGhja01NQ3ltQk8zYmpWWWV3TkF4ZHJGX0hnc9IBuAFBVV95cUxQUVhacHZyYUlMNkVjVjc2My03RVJXNjNNdENNclFkdXBzaWNaMFgzZUZTcHIwdXZOYVh2UU1XUi04TzJJQzZ1clhqa2g3bVRia2tEWTlCSk90UXlXb0VDYk9ackpuZTNwNFpBUXhHaGxzNl9zT2xZdFhsM3ZNZmJtUzRQaTlNdjU3a1ZRbnpOVXJIeDZZX1dVNDVxWlROQ2dMVF9mbGZXUnFqQ3d0ckw4cGtON3dGLUh1?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Why oil prices are falling: Brent’s third weekly drop as Gulf barrels return despite Hormuz attacks",
-    "source": "Oil & Gas Middle East",
-    "published": "2026-11-23 06:19 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13S2N1XzhKUk1HYnhoVHFlZWxoTHdLbnJlaDRybWFUTHI0cjNtNVQ5Z293c2gxUV9LN3hKNVNLaFRreEc2a09wUXpwMDJTcFFNOUVFekdXd3ZBYjlya2Z6SHhhX2dfZXpyelM3VUk1V2JDSk5wbXc?oc=5",
-    "topic": "Brent crude"
-   },
-   {
-    "title": "ANOTHER OIL PRICE ROLLBACK⛽📉 Effective Tuesday, November 24, 2026, oil companies will implement a fuel price adjustments in pump prices nationwide. Here are the estimated price decreases per liter: #AllYouNeedToKnow",
-    "source": "Facebook",
-    "published": "2026-11-23 06:09 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZmtETmtuZ2ZWUk9kOGhoNkRvRkhlOW9oTWV6ZGU2ZGs1eE1wWWFuaHZHTnZIb19ESURkMktGMmZxUkpVb2VKX2ZDbHU0NEoyeXh6OVU0X25ucTlJRVVmMUJJbmdkbDhkM2p0ajcyUGl2UHE1UG1JZnZCV29MeUtzb3IzRXU0TjhRdXZsTjgzWFQya2tZb3JRNld0NW92N0xCNmVfalNIekRLNDBWRHgwM1VzcmtQdFJic1kzQTNfRGUxWkhHbWdOMmpaYVVvOU9vVndnMXdCRkJRZl9KMk1j?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Gas Prices Ease for Thanksgiving",
-    "source": "ACG AAA Newsroom",
-    "published": "2026-11-23 06:00 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxdkhrS3ZVSnFVZ05GeW1BM0NBdnJzTDZZbHNRTnhxUm81cnBVMzVMLVdLdlZSY3pBWFVFVl9BMWVaWl9pbzF1VzB0aGlsQS1SNEVNMVB3X19faHJyNzFJazNNTUZuaGdpODhxU2N3bw?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Ampol (ASX:ALD): How Do Lytton Refining and Fuel Distribution Shape Its Outlook?",
-    "source": "Kalkine",
-    "published": "2026-11-23 05:57 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXZEM0pHRkQ1T3I3NUxkVVBHTndOc2YyOHdmeTZRTzRiZERLNmdIWTFJd2Z6NVlNUlVGMmxZX1diRG1va0RyaS16dmZiaDl0TzJiaXdXR3Z5d3BDcDNOR1N4X3o5elVxUnRtdmV6bncwemhpWkhiNnBxYVJvemlISDhiNmh6Z2NGREdDSnp6ZjYxTFU5Z2FvdE5XTnVxT1F1eE9QOVlQcXgwLXJ2Vy14dFFDUFZ6QQ?oc=5",
-    "topic": "diesel refinery margins"
-   },
-   {
-    "title": "Oil prices steady amid Gulf tensions and risk premium: Reuters",
-    "source": "Crypto Briefing",
-    "published": "2026-11-23 05:52 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWZwTVVaVEZfNzd3dklKU1Y2RmotUWtfUDV1clRfd2ZTNHFoR0hERjdmMnAzd1BlMXN5dHVBalpPS0pjbm1hWUd2Z20yMWdDM2hMSXhsT1dWRjBPQ3NlNzFHMmUxODh1WlBoclR3RW9hckNGNkFLeEZnMkdvV09IbkhyZW0wbXVLc09QOE1kTzU5WTA?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Oil Prices Slide as AI Bubble Fears Rattle Global Markets",
-    "source": "Crude Oil Prices Today | OilPrice.com",
-    "published": "2026-11-23 05:50 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWHFpaDhkd0NXUHA1MWpDSzVZZzUtN3A5Xy1sMXZBNEZ3TGdSUklBTlgxR1o3YVgzM2pRbjRKcmdqSmlyX2pvYVJzUHhqRVczN29oUGo3Y0hCRkl3ZTFHSXNPVDNjNkZIVXJpcUNTTDBNYl9oTzV6em1QT0FaVFpDZG1UTlJsTUpEcHlPNFZxRVY5NndyT3dKMDJLa3lBUnZqQUxzc3IzMGZ1ck1mUHc1bGFEUdIBuAFBVV95cUxNU29rRW1Nakh1b3FCXzViX1JYTXFlcGVpekFsVXdvQTVhejRDcklGMElENHFDYVFXeHBlS2czdzJhWmpKZU5fVlE3MVZZOHFYcGt5aTlINlpEdlY5bVQ4Si10Rm1ZT1ViZmNCQ0luQkFvT3pvOE92eUU1NUZEWVd0Smd5M01SWmZFTTBTdE94ajl0NU9aQ1pyY3ZyVmFRUnItUlpHOGJzR1o5dm16b3AzRzNSYm5VZ09S?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Oil prices fall amid equity sell-off though Iran war attacks limit losses",
+    "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
     "source": "CNBC",
-    "published": "2026-11-23 05:47 UTC",
+    "published": "2026-11-24 05:05 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUJ0eW55S2ZIU1FTSEJldlNUTExmeF9zTnBCUl9Ycno3bGZ3b2xDcE5CQ21WUEE3OXROeEhxcG9TcF84Nm5DVUFXaUxEYS10eXJIQmJWOU5kc2szcmtwVWlMOXp0Q3F2bFFYellDRlo1c0tQTnd2OElrZFFEaEp3U3QzR3plWE9lei1QTktnVWxiRVM3Tk9aaEEtWGhQdE4tdWRsWVBVNGpHdmozS01yR3lBSk_SAbQBQVVfeXFMTnVCdHlueUtmSFNRU0hCZXZTVExMZnhfc05wQlJfWHJ6N2xmd29sQ3BOQkNtVlBBNzl0TnhIcXBvU3BfODZuQ1VBV2lMRGEtdHlySEJiVjlOZHNrM3JrcFVpTDl6dENxdmxRWHpZQ0ZaNXNLUE53djhJa2RRRGhKd1N0M0d6ZVhPZXotUE5LZ1VsYkVTN05PWmhBLVhoUHROLXVkbFlQVTRqR3ZqM0tNckd5QUpP?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "Natural Gas and Oil Forecast: AI Selloff Drags Oil Lower, Can WTI Break $83.69?",
-    "source": "FXEmpire",
-    "published": "2026-11-23 05:35 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeThOelpuWGlNbEhtWXpDbjREQUxqQ3EyTlF2SXdYeEJZZ1lwbThqZVI5NVB2X2t4OGp4bHB6VjYwS3NFU0dGYy12ZmxVMU5Yd3FWcFpfZnhVTE9lM0hYSVMxUldaSFpzemdKWU10WHRuYVYwZG5OT1ZnMnpPTV9BZ3VLLWF3NUVqVEVnU0dSa3ZmRTJ3cGRHejNUUTlqcXlrcUNoZEdNTjlBX2hfeEpvc1laSE02U3hKb1VBYU1rSVUzNVFu?oc=5",
-    "topic": "Brent crude"
-   },
-   {
-    "title": "Crude Oil Falls as Global Selloff Offsets Middle East Risks",
-    "source": "HDFC Sky",
-    "published": "2026-11-23 04:58 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbUpvRC1IR2pKcWh5TXJCNDAzNzNmNU4zRVlleFdZRnJrQ1hwQnBOel82WVFHbnk3RWRWZzhYUmJEb2QySEFJcHl5NFdqNWt6X0ZocUx4SVJWMFZ3TDVES01zMU9oYUszY2NKMkxvWHZWTURtdmJidnBGMXBla1JjVzJRV0NGbE9XeHo5TnpvQTlaV0tKdzBaOGoxdWZucldnSi1SdGZRS3RHaVEyQ2NfNGtlS2RIaE41ODkyT0V2NTdnekJLd0V0Wl9neDVuVHZnMlE3VnAxbER1VkpLckZCRV9jUkF4ZkdQLVNrcGlzUkNfbmxlanpB?oc=5",
-    "topic": "Brent crude"
-   },
-   {
-    "title": "Tankers Attacked Over the Weekend in Gulf of Oman and Strait of Hormuz",
-    "source": "Ship & Bunker",
-    "published": "2026-11-23 04:44 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb1RPejg4dTJzYjRpYmp0ejRKM0dQMnY4VXM1emJlRkozLUV2Y0dxNFVnTjQ4RUZhUzVvZ2NmalU1cmdqVlMycWRwQ1Q4RGxlWUZfQkJwakFaNVBkRkFfT3dtSndiLTQ0Vm1VMm5QX3IwZXRTUXZwbWU0VWZnSG02Z1B6RUQ1eGNkT3NlNHktWVdiVWVqV2ZaTUJBeEJROVVHZjZENldPTnM5aDh1WElwU2kwbw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?oc=5",
     "topic": "Strait of Hormuz tanker"
    },
    {
-    "title": "Oil Fluctuates as Ample Supply Vies With Middle East Tensions",
+    "title": "Oil Extends Decline on Signs of Continuing US-Iran Diplomacy",
     "source": "Bloomberg.com",
-    "published": "2026-11-23 04:22 UTC",
+    "published": "2026-11-24 04:11 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZldpS0pzSnV4MTFveW5XYzJmeGg5MTIzNm9RVWZka25nb05xbmU0T2s4Sm5vbllUTnZTLVNpUnEyUk01a1otTVpKQ20zU2l5VmhsNkdSWV9EMExoa0VaVWpYUXZVREoxdjk5Mk1wN2Q2QkswQmU5aUY1T2pBUTRyVnVmOHg2b05YNmxSaDdZYzZKbWM5UTFUVndxUGlwQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdTVqRHVCelVPeW5pSEVHY2NRTVVFNUVLemNoM3M5a0N1MERHM2t6OEdOUGlSRVA5VW5wYzhuNVUzTlFYYzBXMmlIbmZ4bkNVT09ON280dld0WFBPbnJpaG1NODN0XzJZV1ZTRFcyR3hUZGZ3NW5Pc04zZ1JIaG5mR2hicHdTcGxuYTNhNE1LemwtclRGTllHQ04wcng4Zw?oc=5",
     "topic": "Brent crude"
    },
    {
-    "title": "Goldman Sachs: Oil Prices to Ease in 2027 as Gulf Suppliers Adapt - News and Statistics",
-    "source": "IndexBox",
-    "published": "2026-11-23 04:20 UTC",
+    "title": "Three oil tankers hit mines, burn in Strait of Hormuz",
+    "source": "Mehr News Agency",
+    "published": "2026-11-24 04:02 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeVFDeEkzb3YzaWdVY0NpRVozWVV6bHlaVVJ5c2FhdjR0SEhyWmJENUMxOElBZ3JSOVVrd09uNmdoRmJPOTlDNzdHRlFfN1JlaERmOHJFRUI3NC1nWHotcDVQZXFlQ0JsY3lBcTFnRWg5M2tBZ3BWbXhTd1lFSEU0WVRiMmZyd004Uk5GSUZmMHpXT1hYNDJGRmhTeVl6Y0RfdXE3ZlFJTGhRY1E?oc=5",
-    "topic": "Brent crude"
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaVNqODJKa0hUVGxOeDRJck15QXI0aVc0Z0kwUXNIUzJSYTdwTUs2NURPSG8zT1VkUFhpV1NlNXZXZzNWTzVkOExueUl1NUxHS1VkcnpnMXFLbUdkMWNPX2R0ZU1BY2JHYXgyejVYU0lQVXVJb1Myb2NLZW9GdzA2TUlraWpjVkVTX0JvcndTOW9Mdw?oc=5",
+    "topic": "Strait of Hormuz tanker"
    },
    {
-    "title": "Permian Resources Posts Record Free Cash Flow Even as Oil Prices Slip",
-    "source": "Yahoo Finance",
-    "published": "2026-11-23 03:28 UTC",
+    "title": "Russian Offensive Campaign Assessment, November 23, 2026",
+    "source": "Institute for the Study of War",
+    "published": "2026-11-24 03:48 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLTAtZ2xZM1BTRjBycERvTF9iR1pxbS0zNC1fQzZKSks4WVhIZzZNQy1VeXV0WlROX3Q0cnpRRXlQMUUydnBCb0FGUk00U2NKS3pxVkhabnhwSWpfUUl0MTJEX0tOQzdvQlN0NHVEZ0lBelFhWVBNS3k3MWoyVnduZUQyNzg4VEN3QU41d0JmbVI0ZUg5TVh3?oc=5",
-    "topic": "oil prices"
-   },
-   {
-    "title": "DW News. . Officials in eastern Libyan say a Russian ship was damaged in a suspected drone attack at the port of Benghazi, where it stopped to refuel on its way back to Russia. No one has claimed responsibility for the suspected attack, and there was no imm",
-    "source": "Facebook",
-    "published": "2026-11-23 02:30 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRzgtMWxkaWt0NmlOcUQzSHhNWTE4c1NzR25FaVJscUxORk8yNzFnaUZJTTI4blhFZXFQaTFxbVhlUTZjRDRVck5RaHgwWC1uSjJGNEhFa3VKVTM1V1BtejQ0VzlyYTR1dU5qRFZyUFlkN0Q1UFlxR1BNUi1aRmpCejhqS2NFY1BCbTYya3ljYTNONG5BLXBUZlpsNEd0QzVGVERwQTBQMHM1UWhjdUhHMUlYb1NGNGNqRVNRX1FMVHg0TnZRMlpFVHlVUlRNX2t4Y3dSbFV6ZE82eWg5a1NtNw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDMwdjdWRXU2aEVmSVRTMmxFWWxWc2JsUDE5d1pDdlNsSWh6YWpJNHpsb2dHSENvd2Y5Q1JRVmx6T1hJSTlhVzFVYkl6MmdwZVZWZHRIdjNPMURyQ0sxZFlhaGJxRzM4a2dIb1hySlFjcmFQRmNUTEtqcGFYNnotT0N3azJTOVpuQks1NkotSlM0S2hmVURBZlNPX1BnbUUtTk85N0NtTW0wNXQ5?oc=5",
     "topic": "Russia oil refinery drone strike"
    },
    {
-    "title": "Oil holds in tight range as Gulf attacks sustain risk premium",
-    "source": "Reuters",
-    "published": "2026-11-23 02:24 UTC",
+    "title": "Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz",
+    "source": "The National",
+    "published": "2026-11-24 03:39 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb016TW1Rc3N2Q0h6TVJZUFBSeXZqWklRWXgwZ2QyUnRCa0tnWnI4b0Z2YkVVZlVGWTJwa0E3SEVqNnotSE4zOFpOdjJUSE5GcjB5RHJxaklsM0I2U1owemZ4aUJmYkRhUUM2VjVFd09paWhIWHhFUWxmcmhzT3Y5RWhCTENfNE00a3RaYnhnOGgweEJoNEVtNTVKS0pLTWNiY2ZfM1pvbFNieG5DbWpGcUdOM19xZFF5QXl5LWZXNVRrZw?oc=5",
-    "topic": "oil prices"
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNW14YjRmMTY1a0preF9JQmJVaDFGVmZWUlNJbmRNelFCQjFqYVpfbzJMSFJPN2hwQ1diRDZYdkh3Z09LalBnb3hBZ0k1LUtZNWVpZnprZDlzMzAtVnZZZzAxNTlQYXZYcHNHdjJEZkE5Y3Nfall1Vnk0YkQ5NUpTZDctU3BLbXhz?oc=5",
+    "topic": "Strait of Hormuz tanker"
    },
    {
-    "title": "Oil Futures End Volatile Session Near Flat",
+    "title": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
     "source": "WSJ",
-    "published": "2026-11-23 02:10 UTC",
+    "published": "2026-11-24 03:14 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUlHaVFFSnlSWkY0ako5NjJsMTNsVjQ4eGhKc05oZGFWMDN4c3RQR0NyODVNUzNUenFRNS01Y1QyZi03Vm45eTNkbXF3bVBlTUhkWGVHeXIteUlPNFY2aEh3bnh4VXFaVzRMWk1fOV84SXQ4RlRMb2p4QWZ1b2NMb0JJQWZpdURHb2VLLVZVT20yQk5nWTBPUl9hUUxvcllXM0p1dFdxZjd2WWFlaEtVUGFoUzNHNG1IYWQyTkZfLUtOQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDJZaXFhY1pnSUd1OEp5V2NtbWc2Z2ZvUW41OU1pOGdBWVRPbllCZWhHMExvNWlsSjR3cmFsNFpjV0d1WkRGTEdUcEZNMUNfZ19lS1oxQTlDanlUMXZxZzV4NVhNd29tZWJ6bUI2a0E2SnhPSmJZRVViNUgtREpsZmVUOWN3TFFoU1BTRURIOUZCOGlkNkc0TU41TlNMeTB6b09XSk9MSE92YXBtOFh4WXd5ajFRR3Nna3YxdmxPdEg?oc=5",
     "topic": "oil prices"
    },
    {
-    "title": "Novoshakhtinsk oil refinery, Tatarstan pumping station burning after Ukrainian drone attack",
-    "source": "The Kyiv Independent",
-    "published": "2026-11-23 01:18 UTC",
+    "title": "Oil holds near three-month low as rising supply offsets Hormuz threat",
+    "source": "Merced Sun-Star",
+    "published": "2026-11-24 03:03 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGFsaHA5NUhLSG12V2FCUXZ1NkNlNXF2S0NJZ0NPRHBUazF3ZkpySU1DZlNUNDRwYk9mT19vNEdiQ2I5OTFaMm9vazlWVE5RR04xcEd2NjFSdVBlLVhHU2hZV1BSYjQwU3VEN2FPeGtzVndCMjBvLXpPQV93eUZ4ZkpkTTBEZHE3dDFZNXJ3YnJXSUF0UmJaV25HeE5zVHdKYktzNEMydw?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Novoshakhtinsk oil refinery reportedly burning after Ukrainian drone attack",
-    "source": "Yahoo",
-    "published": "2026-11-23 01:18 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLXk3SWpHa2FTN3pjYTNXQ0NyckFUeUdHM0JObXVoOVBJUGVicXFyZjA4blhaLU9wdk5CV083YkFvZG5kY1V6OVRJN0swWmx6VXhZVUpnOXR4dlUyUnRCbHF6RHBjMkVnTFpLemlMR1JRWkRDRHl6TFdTLVpkaVRPTThEU3BYWmhEMjZoamJsQ0htby0tNjJQcHdsSTFqUGpHZGg4YUZ3?oc=5",
-    "topic": "Russia oil refinery drone strike"
-   },
-   {
-    "title": "Oil Falls as Oversupply Fears Outweigh Middle East Tensions; Brent Drops Below $92",
-    "source": "bloomingbit",
-    "published": "2026-11-23 01:07 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FZFNMNHJOTkJTdkJtTElpT0lGdFhoMXg2SFhlRVlEZ0hyY1E3Ty02eVR3dk1FZzZVam85V2JiZW1CSWR1Y1pzY3ZyMlZBWlBmODhTdQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS3JvcW9VWDlVRnUtd3ZMWEhFaWxYMlpqMU1DTnRra0xTMlJkVDluSjRweW9QMGRHTnhRQmRCbUg2dE5HTzM3Q1ZBZno5NFQwU0s0c2hzcXpjRW9JZE56ZkFWaGNyaGZNRFVqRVVsNTJ3WTE3TlVKTUpwUC1OeTNEeXF3dlY?oc=5",
     "topic": "Brent crude"
    },
    {
-    "title": "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet",
-    "source": "OilPrice.com",
-    "published": "2026-11-22 18:00 UTC",
-    "summary": "Oil prices have traded in a narrow range over the past few sessions as forecasts of a coming surplus collide with continued attacks and stalled diplomacy in the Middle East. A run of agency reports this month has pushed expectations toward oversupply and weighed on crude. Brent crude was up 1.1% at $92.88 per barrel at 11:50 a.m. ET on Thursday, well below its October levels above 110 dollars but …",
-    "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Markets-Are-Betting-on-a-Surplus-That-Hasnt-Arrived-Yet.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "US naval blockade of Iran: Tanker incident reported near Strait of Hormuz",
-    "source": "Beinsure",
-    "published": "2026-11-22 23:18 UTC",
+    "title": "Oil prices near three-month lows as rising supply offsets Hormuz threat",
+    "source": "Reuters",
+    "published": "2026-11-24 02:56 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY3dvQTY1cnRrWV9zbHJMQk0xM1NRc2daTm1JbEt4MUJud3ltYmxGV0IwOUxFTXhmbHR5RzJrSi1CZlJzSHFacW10Slc3NXFPSWJBNVRBUnNPNmxyaWZteGp2SnRZWmJvVi1ZRGpxT05WVXp2M2JfdlNUWHJuRUctZlQ5cnhCSkFuaDI2RmFDVnZLYzJKVXdzaUJjdU53VkVM?oc=5",
-    "topic": "Strait of Hormuz tanker"
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDQ4RU9qMFd6TWl0WkFDUGVsdk5Gb3Q1dURMcjcwbGxUV3ItdjhZUGdQUTBZOVUyZEZlRzdmSEtjM3EwQTNUam1nRVZNdXFRbmNfeHhpUnNVQjNPbjNyOGtSZHVnNEZmbnpJdC1VdVA5X25rWndhMnZqemNGVWdVU1Y5OE8ybExyT2xLelF6dnZsNkM0OU55b1dKc1NuNF9sWkVGSGZJaUNxLXc4eEdGZTl3LUtFTDFuUUE?oc=5",
+    "topic": "oil prices"
    },
    {
-    "title": "Gulf tanker supply is normalizing, but weak Asian demand is keeping physical crude heavy",
-    "source": "EnterpriseAM",
-    "published": "2026-11-22 22:00 UTC",
+    "title": "SK Incheon Petrochem Restarts Production After Full Scheduled Shutdown",
+    "source": "energynews.pro",
+    "published": "2026-11-24 02:33 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd1VTTHIxNTZaeE5YdHhBM0NRcDRpS1A2YktvVWRUUTNoa0hEekc5OFFqR3hwUEk3akVfdXJ1OWVwMjZGOGhPcU1GVHllYVRrLVZzblRNc2cxc0d1Z2N1TUtQenBfcVVIWFAtUVJ0ckx5UDhoQlJnOW1YbGZTWEpBVGNUVTAtTWFpbUIzOU1KLWJ0RnNuRjN2S01NcWZCckgzaWxza2RYTUFidDdLSUZHOUQ4M0twcTVpbEx6djFfTWg0U3FCcWxkc3BfR3liRU5OTmlNTnNB?oc=5",
-    "topic": "tanker freight rates VLCC"
-   },
-   {
-    "title": "U.S. Energy Exports Hit Records as Global Competition Intensifies",
-    "source": "OilPrice.com",
-    "published": "2026-11-22 16:00 UTC",
-    "summary": "Rising U.S. oil and gas production and export capacity, along with a shift in global energy trade flows from the war in Iran, helped the United States hit record highs in crude, fuels, and LNG exports this year. In the decade since 2016, when LNG exports began, and crude oil shipments were allowed to go not only in Canada, U.S. energy exports have soared to make America one of the major crude oil …",
-    "link": "https://oilprice.com/Energy/Energy-General/US-Energy-Exports-Hit-Records-as-Global-Competition-Intensifies.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "California’s Wildfire Crisis Is Threatening Its Energy Future",
-    "source": "OilPrice.com",
-    "published": "2026-11-22 14:00 UTC",
-    "summary": "The cost of natural disasters is hitting utilities hard as they need to invest more heavily in strengthening transmission infrastructure and financially supporting recovery efforts. In California, several utilities have seen costs increase in relation to more frequent wildfires, limiting their spending potential, which could ultimately threaten grid resilience. In September, the California utility…",
-    "link": "https://oilprice.com/Energy/Energy-General/Californias-Wildfire-Crisis-Is-Threatening-Its-Energy-Future.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Crude oil outlook: OPEC+ meeting, supply glut concerns to drive prices next week",
-    "source": "The Times of India",
-    "published": "2026-11-22 18:12 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVlRKam5kcWZRX1Nta1hJcU5OM1k4SFltc1BOaDBESURBcTJBa2VwYW1wR2V2UGxFYmFJRUZudngyMUlvbWxRRTNQSTBDYUZwaEU0bzJvUm80eTRhYk83SGl1UFJ3RDU4ZjdKT2w1UzhoMkJ4NjROWUZrUDJvVFBfLTk0U3lSXzZSRnZzMmNIaElRaGZ3WDNOQllkazN2NnhFM0M4RHF3SV9Wd3NhS0pjaW9qV1NKMzRJWTlyOU1fNnUzRWJhbFlIZDR3dHlKNmhibTMwbnh6YlpqN3pfTmVDVU1FZ1NwUWg2dk9SMTlBd3ZaX2FSeHfSAfsBQVVfeXFMTUpWa2VVdmZmR2d4dG1IU0VWRm5URTRlc3haNm1USFI5TC1JekZmekdiLTJTdW1USW5FS2tOSVZUaEhMOUlJWk5Lc2RWXzRXT3lVbm5VSm9rQ1BXeGY0WmpEWWtZN2VlUlNNMTRua1R5Q3YtdVNTbmliNU1fZDJKLU5xWGpQT05PS2Z6Rm5XcXJYeDZYWmQzLVVRT09DdmpSTHB2aEpZTnBqVVhUa0RyaFpNNDRaVUZkb21sR2dfcktsNE1iZ3htOGtndS0yY1N4ZTVodHZaQVRVaWxRc29mcXQtVUtpMWU1YlFPbWM0R0NtUGlBeUR3OEk2bTA?oc=5",
-    "topic": "OPEC+ oil output"
-   },
-   {
-    "title": "Tanker incident “involving military forces” reported in Strait of Hormuz",
-    "source": "Euronews.com",
-    "published": "2026-11-22 18:07 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm96RExBbGw0OERZX1lMWGxhczRYS00yOXR6Rlg0XzJ0VHk2bEhZVHVFNmFRYllVUjZvZUhqYzFQSnNULTNhRjNhcE5IOXFNQmFOU2RlZlRZYWxrUnVZbWJrWGEyQWF6T1Z4MUUweHVKTmsyNnMtSS1KeHhxeWdoUWlZYU03eUR0X242RVdjNUp5dnU1R3hXRmNwOV94Nkx5UGtySXZMVnV2QQ?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Google Backs Superhot Geothermal in 50 MW Oregon Power Deal",
-    "source": "OilPrice.com",
-    "published": "2026-11-22 12:00 UTC",
-    "summary": "The runaway energy demand driven by the artificial intelligence era is pushing Big Tech to pursue an all-of-the-above approach to energy generation. At the same time that the sector is causing a natural gas boom and extending the life of fossil fuels, it is also channeling huge amounts of funding into next-gen clean energy technologies including space-based solar power, nuclear fusion, and advance…",
-    "link": "https://oilprice.com/Energy/Energy-General/Google-Backs-Superhot-Geothermal-in-50-MW-Oregon-Power-Deal.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Iran amasses 14 oil tankers at key export hub as Tehran weighs challenge to US blockade: report",
-    "source": "New York Post",
-    "published": "2026-11-22 17:11 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMWI2WWllMnpmMUEwTnp1VERkbjNRRmRBNUluVzl5ei1CNnQ4MzMxOV9rVzRyQ3NVZTVzWWZ4WHBTbWZPZlBkZENld1VidkV4R0pidjZocFJETzVXYWkxemtlTEtrUVR4SHJEU2o5TS1zRWo2UWtFU1UtX29iSmM0aFYzTmlhRXZqYzFyVDdXWGU4SUhXVTJoZXlfRjZNRHMteXVmUHZIY0lXNTYtT2R6M2xiUTZvX0M1dnNKNGowZFJQZGkzYXM3N2FVT0JDUQ?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Oil Prices Settle Slightly Higher as Optimism Around US Inflation Data Outweighs OPEC Supply Concerns",
-    "source": "EnergyNow.com",
-    "published": "2026-11-22 16:52 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaU5kZ1JwUVprenZfUUdIeHRMMlVXM3I3LUFFWl93cEZTVGI4OVg4MUVqVTRBSmpaT1U3SGdsMFA2RGdmclZNTDJMSVhyenJYX1J6VTFzMEhMbkFFMGhENFlEQ1NqWUZlVDdjbEt3Mmd2MThHTUdMRHhKWWU0RU9sR1N5U1k2Q3J3SklVNU1SM3RtekpPa19kMFRWbEZVU0p3STFQbklDeGJscTh2TnotazdJY0NEbjlhNURLZU5OZ2syZy1fS1dNd3BXYzg?oc=5",
-    "topic": "OPEC+ oil output"
-   },
-   {
-    "title": "Iran War Brings US Close to Net Crude Exporter for First Time Since World War Two",
-    "source": "EnergyNow.com",
-    "published": "2026-11-22 16:50 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeW9oTV9lT0MtTjVpc1Z0TTBBam9sSDZ1eThMeVBkNkNjM0N1NUt6bjBocFJMRmwxWDVsTHBPUXh4WWkwWGpBN1BmV19PLTRaWXVSbU1pZVpWWThjUHFRalRkeVF6VHhCc01adzZFcjMxTDV6ODZsNGNmdmFhVElNUmdoa3IxSkRfNC1LYVJ0TE5XS05hd3pvRC1Nb1VWdXozU0d1M2F0ZEZHcnlvY0FkQUpB?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "Iranian Oil Exports Fall to Lowest Level in Six Years, Data Shows",
-    "source": "EnergyNow.com",
-    "published": "2026-11-22 16:48 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLV9uQkczaGQ0MW1KVGJCeVhaRHNIdXNVblNjazFsT3J0OVhVRXFjNkZMX0xTT3Q2b0pCMlhpVlFLMWRfbTBHMFhEbjZiNGdoclF3elkzTkJId283QXZUOTMyQll5WGVKRVRsQVRCQ1lPS0lUbzU4S3ZrTmx2V3p4dURpTnVnTzd3QVZ0WUVTX2pmYnlHSGYyRjJRNA?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "US Refiner Margins Hit New Records as Fuel Shortage Concerns Grow",
-    "source": "EnergyNow.com",
-    "published": "2026-11-22 16:46 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQTUyckRMcEduclZ3dTQzMjd5NWhqeC16Sm5FY2Uxb203cTVtbFdyaUZiZE1LZVBMU3V3ZlAwRGVTbGc1NDhBWGE2dzZWXzZNcEpfQXhZTFhNWGprMGhDSzI3a3AzNFZOcjZ4ZlNBQ0wydHFRQkxGOE81OGZsQzVOVGxKZk5lX3NuZThlc09PT3hpWTFJR09sZmNGYXc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWnl0OWV3MURRQndTLThxWm5hS3d2X0Q2QjNOdy16OGg4ajlJd2JSUklqSHZNS29Ca1hreVBJZVVEOWxsNWtQcmMyVTN4OEFJNDQ1UERZWVd3WFRPdThhR3pmZXljWG9sT0prcm1QNDMzeEFWQnlRaW5Db1d3R1U0aERySkFqRlRGaEV5QVdrQWp0RTlvWHJramZ1MVY?oc=5",
     "topic": "diesel refinery margins"
    },
    {
-    "title": "Morgan Stanley Lowers Oil Price Forecasts After US-Iran Peace Deal",
-    "source": "EnergyNow.com",
-    "published": "2026-11-22 16:21 UTC",
+    "title": "Oil News: WTI and Brent Hit August Lows as Supply Outlook Pressures Crude",
+    "source": "FXEmpire",
+    "published": "2026-11-24 01:52 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSVctRUFVM1l4Z3VNRnhLZVN0dV9KMENjZW1wWWo4eXJycklOLTdJSkJNSm9qbTB4WDB5OUFsaktnUDc0V2JheDl0eUZoZk43bVpCMjhSTEFJeXNpeWhlc1FhZnhvOXN3Q3B4R0ppbkM3ZmJreFpEbUd3Y3A3WmxTY2Jla1RzSXUwekdNV1l4bnlZOEw3bG85TUt2S08wRm9FNkNlajRR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2hGRG1adWVqdUFtQ0xmYnd3THc5dk10a2RyZWoya2YwaU1NMnFNWXNvV0dtRW11cHpZcWtfV0piZ3RjajhWM2dxdjhpYlhBbUpZT0t6clZlVmRxM3VFZzFMTzRsYzFLM2pNNHRoMkJlRkJuT2VNbFpzclZuUXF0bFpJSkdGcVNrMHlBbmtObE1KOTJhWVZXd1hweVBfcFZXNHNyVEpHMVRMcFdDVUFMTUdlR1plSS1fWUpvazd5Rmk?oc=5",
     "topic": "Brent crude"
+   },
+   {
+    "title": "Oil prices fall further as supply glut fears overshadow M.East disruptions",
+    "source": "Investing.com",
+    "published": "2026-11-24 01:47 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcklFVWk4NXA4TVJwZ2FBV1FsZ2d3VWFmWlpYLU5mYTkwXzdDVDM4QlU3U082cjEzTXF2bW5jMFk5Q05HM0dCM1dtMTFvSUpTOXhneFMzdzZIdkd0Q1hoQkxuUEpSMjl1TEJhbWwxRFdTWG84bUp6dTZBUTB5LWZwOG94emtYNkI0aE5zR29kdHZCQ2U0c19MSk9ndDJsQk1LZUEzZmZiTDdGa3FOWGJXR1pCQWRMTFhQY1pTMg?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "America's Refiners Drowned Their Own Gasoline Windfall",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "published": "2026-11-24 01:00 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOWkxYVdRNThBbExZclh5X3hkYkdNZnRpdGxOSjBGV0VMSWJ6OUt6NGZMZ2RHWnkyU1RXTl9XbHpMVWhvd3hnY1JVdjZhdmJSYjdfOEdPNUtnaVY2S3NiQTlVMWdHTHFKTUc3OEFyLUhZVk5nQl83blRVOWhpYzBUU3RGd3dzRjFCbXN0V3dsWXptV0pvVEZtNFRsLTlwVG91UHfSAaIBQVVfeXFMTjlpMWFXUTU4QWxMWXJYeV94ZGJHTWZ0aXRsTkowRldFTEliejlLejRmTGdkR1p5MlNUV05fV2x6TFVob3d4Z2NSVXY2YXZiUmI3XzhHTzVLZ2lWNktzYkE5VTFnR0xxSk1HNzhBci1IWVZOZ0JfN25UVTloaWMwVFN0Rnd3c0YxQm1zdFd3bFl6bVdKb1RGbTRUbC05cFRvdVB3?oc=5",
+    "topic": "diesel refinery margins"
+   },
+   {
+    "title": "Iran Suspected in Wave of Cyberattacks on Oil Tankers, U.S. Officials Tell WSJ",
+    "source": "Haaretz",
+    "published": "2026-11-24 00:44 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSWZUNkkxTUIxWldZQURTb2ZtMmNxcWFqRUVsQWYtNHQycGNxc2tuUFFNaGc3bDhaRXJjQlJXRWZxd09Jd3JiZ1VuRURRaHhTTUE5eDNJRjNyeVJ1cVNLa0VRQ0lJZzREWkdoa2V3Y2p1Z2hRQUI5dWtZMG1hRzlKQkZhdVNFZ2VWWlJpaVVUSmUySGp2VkxUSTRLbjg4ZXd2VTNRSTVLd1JKenNyZkpIcVhIM1VjSE1zMmZZc05Hb29yWU94YzM4X2VtMkNTOEE5eUJUQ0tSZ0g5bVlfcDFJTElFNHNBMmtITkg5T0llRFZaWEJ6akVPNmltbWNTRDFHdzNVb2lKcTVFNHB5N2c?oc=5",
+    "topic": "Strait of Hormuz tanker"
+   },
+   {
+    "title": "EU Proposes Ban on European Assistance to Repair Russian Oil Refineries as Ukrainian Strikes Intensify",
+    "source": "EU Today",
+    "published": "2026-11-24 00:12 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5RZVVzRTFrajFib2tqdHlKd2Fua2hFa1JaV0tzTWlDV2tHSG5lYXNNbG81emR4cElnclNuU0hscFAyYWIzVG9tTlU1REdERTZKcTFtZ3dXa0JQb2MzZ29Lakk5LWNtNlBOc2d1OHZzQjQ3QzdvWEdCS2FFZFc?oc=5",
+    "topic": "Russia oil refinery drone strike"
+   },
+   {
+    "title": "Trump pedals another lie, suggests Democrats kept oil prices high to win election",
+    "source": "Democracy Docket",
+    "published": "2026-11-24 00:08 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNW1QVWxPeFcyNGVDeUlsU0F3SDU0ekkxSU1SOFMtWkNielJlZWc3MURSZ1lJT3o4OFU5aEI4MGsySE5aOGxPSHNkcXlzMTV6RFg4ck5rNkJ0eHEyZnFGeGVzMWxZcEJmSEJseWltM0FVcnVGNDNCZlhaTjRRVGlGdy1KLUo4ZmMxaTJwMHVDVURxR05IZEJvV3ZOY1RaRmEteml5dDIwSDA5X2JCSmtuaU5KNng4WTdWaURpcFRkMWtzdjg?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "Oil futures: Crude retreats as ample supply offsets Mideast tensions",
+    "source": "Quantum Commodity Intelligence",
+    "published": "2026-11-24 00:07 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDNxc3N0UWsydWQ5amRmNzRoNHBxM09QZUs3Q25DMG04OFRhdmo5ZC14SU0tTkZKemVsRDJPN3hMVGdNVS1fUGlsTEt2UzZ1VUxXekxyRzRvemRIRjRSX2lIMk53OTkybjFTYmFPblJYYzlpZnVVMEJ6M3AwZkJLUHBweXBZUlNtaVlwRHNqN3l6cHk3UGV4MXFONF82V0RxcC0zUXpNelk5S1dXbU9J?oc=5",
+    "topic": "jet fuel naphtha fuel oil market"
+   },
+   {
+    "title": "Gas Prices ease for Thanksgiving",
+    "source": "WNEG Radio",
+    "published": "2026-11-24 00:05 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lbXNsM05pYWpNbGYwdkRzT0E4WnJsTk1TSFNDaGZoYUNYTy0wUWZoaGpUdjJENlBkQ3o2aWhYRTE5anBmM045ZTIzZmhqNkZmVlRIWkt4NklDVXVyTnp0aFA0T2Jydw?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "West of Suez: Brent nears 3-mth low as surplus fears build",
+    "source": "Quantum Commodity Intelligence",
+    "published": "2026-11-24 00:03 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPelBkY0p5bFdXZzBCSFZHaEJNUTE2a2NJeUpya0VOY2E0TXVDTlZfN2F0SmJXOXlQUkpZR1BQVlBVVXpyZEliVjBzT0s4UkNhc055eG5aRU9MU21rS0ItVFdiUFp6ZGlkX01fX0NzVmxlUWpZampuMWxPWTV3Vzc2bkp1SnVzcmh3aDJjM0hnVTJnVzNrYkh1Tzg4QUxBc282Zmc?oc=5",
+    "topic": "jet fuel naphtha fuel oil market"
+   },
+   {
+    "title": "Climate Finance Dispute Derails COP31 Negotiations",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 18:00 UTC",
+    "summary": "For the first time since 2009, the Conference of the Parties ended without a deal to advance an energy transition as participating countries failed to agree on key aspects of that deal. Disagreements were most notable in financial commitments for developing countries and in blaming oil and gas for climate change. COP31 was arguably doomed from the start. Financial commitments are a central part of…",
+    "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Climate-Finance-Dispute-Derails-COP31-Negotiations.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "A Thanksgiving treat in the offing: Lower gas prices",
+    "source": "Crain's Chicago Business",
+    "published": "2026-11-23 23:29 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS3FqekRvUFVOWmMtdFE3MjdEbGZla3h4OHR5MGR1UFJzdXZrcWwtRURWQWtlRDBQQkxlMnlXcWdpU0JtS3N0ckJXNGVCdWVBLXVuYVVWODRrSVlCRHBqZ0RhSXFoYXMtMC1faUg0OUgzRGQ3VVhEdmtYT3RoU0cyaEVidXJZTTdZSlE?oc=5",
+    "topic": "oil prices"
    },
    {
     "title": "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See How Countries Rank",
     "source": "EnergyNow.com",
-    "published": "2026-11-22 16:11 UTC",
+    "published": "2026-11-23 23:12 UTC",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc043cHk1ZjIxLWc2RVJUX2p1NnRHMmpRamNpNkVJNTBkNjliR1Z4amtCdkdVUzkzUnBRQ2ZpWFhHdGRUUWtybzFieTY2ek9qazdPaG5Ec0d3akx6a24wMlYzaDdnbjZrbmNVdTdZdXZSYlhGTVFUOHJoTGZhQ1RJR2tyaDNGckF0OWM0QW1ta2lVbnFoOFE?oc=5",
     "topic": "OPEC+ oil output"
    },
    {
+    "title": "Will Gas Prices Keep Falling? What AAA and the EIA Expect for Thanksgiving and 2027",
+    "source": "Around Prague",
+    "published": "2026-11-23 23:08 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSDFJRmhuZFktVmdOUUFCazdPTWdkVU8xaDRVeFdzSi1zenVuTmZNUGxLYmtLVFN5bF9ySE04UTRUNU9UVVV5OUtESmsyanJtdkZyN1RGZDF0eUg5cldfTnN2VGJRY240MXl1bHFzQVRFaVkySmJlcjNpUzdWbWRBLU1LRWQ2UnRibldYU0pSMm9qcUZwc1dQRXNLaGJDWEMwS2JBX1ZKODZ5bldRQ3VpTUFn?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "Quantum Computing Could Accelerate the Energy Transition",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 17:00 UTC",
+    "summary": "Quantum computing promises to revolutionize many industries with advanced materials discovery, industrial engineering, and optimization of large energy networks. Moreover, Quantum computing could begin solving real-world energy problems such as grid optimization and new chemistry and materials discovery at a fraction of the power and emissions that AI uses. For years, start-ups have been experimen…",
+    "link": "https://oilprice.com/Energy/Energy-General/Quantum-Computing-Could-Accelerate-the-Energy-Transition.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "US Natural Gas Supply Outlook Hinges on Three Key Shale Basins: Maguire",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:57 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVHd1cDZxMlE1R21OTV83anNHRk9abEg4ZE9Vdm1QZ0xRNGxmdng5MEdwbVhRYXg2M0dhZjFjb2l5dm5NS2hDMktZVy1heDJPRV9KM0RxRXBiblBnd1FzSlpZamJSM0FWTzdCemFRS09ZWnRUWHFYNXdwTVpuQ0RiQldvd2tkZmluTlVqbFFuZEgyMEttUFhuNWNBbHlnU0hWVlJr?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "Citi Sees Oil Prices Trending Lower to $60 to $65 Per Barrel by First Quarter of 2027",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:55 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGtvY0JRYTFTNGx6WWRPNlktZHl1TXNLUWpGdnhBZlJXMlFxalRjNWZqN2d0SFFzX25vWmRiVUlOeERfRUVkUXU1c0tzSkhUaW55SnJLTmowN0RoMm9qMmtleHM4eUhrQlpzU1N2QnpmY25Lb0NfRExSZ285bmY3bkVsMUExX3dMS1BxcHltYUFkSjY4bXRodHI0Y3d4aWlWel9SaUtmZFkwclM5djdDSHlJd0Y?oc=5",
+    "topic": "oil prices"
+   },
+   {
     "title": "US Crude and Gasoline Inventories Fell Last week, Distilltes Rose, EIA Says",
     "source": "EnergyNow.com",
-    "published": "2026-11-22 16:08 UTC",
+    "published": "2026-11-23 22:55 UTC",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2NXaUk0cjFqM0I1eklsdGZ2OXJvYjl2eVdjaUZRNjd4cmUtWlk4ZzRmdlJjSndiYkJ2c2d2RlJBcG1Ed185ek16VnZla0lQQ0pidktpNlVKRThRYVpnazg5QVdGZTF5cGxaVEU0ZktEd19VTDFJdVFPQUlMOHpsVkQwN1dvWnZQU3lKQVRDWlh4ZEFzVFd2T2JSM2ZiVElMQ0l6andjdw?oc=5",
     "topic": "EIA crude inventories"
    },
    {
-    "title": "Iran War Raises Demand for US Fuel, Boosting Gulf Coast Refining Margins",
+    "title": "Banks Hike Oil Price Forecasts on Prolonged Gulf Disruptions",
     "source": "EnergyNow.com",
-    "published": "2026-11-22 16:02 UTC",
+    "published": "2026-11-23 22:53 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaFBFeE9aMXltVV9yS0xqMEFpaVJGaG10NkVOa09mNTEwM1JyT1p6eEdKYkxvYnJQTWtaaUItS1hZbC1xandMZHpaV3N3Yzh4MmwzUVZPZnZyOGtjcVNlcFAxSFZSanVRcXhwOXpxR1R5M0U3NjRkV2NKODRmaUM2R05jY2RfTk15bkpKMFdTMVlQSFo3b3l5MVFIVUtPTFdZSFJtcQ?oc=5",
-    "topic": "diesel refinery margins"
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNkJCUnJ0UGhBRDNCcWRtN1QzR2h5eEl4TEoxWGVaaVowMXA5NWxtM19jYnA5OUtYanNlZTloLUM2VFZTenhiazU5M1VjWU1vM2JXVTM4bUd6NG9FMnlQMWlDRVpWalJIQTY0V2c0QS1KeWdtQVFHa184aW56NEdGMWdPNi1kLUM5eW1YU0xJLU83ZkFWd1E?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:52 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDdVbXk4SGlPWGZnYTdvTFMtNEI5NFA1UFVSWFJFb0JOZWhWMkR3UURzbHlpY3NuSmRGR2FaakZ2ZTZRU2ctQm5yMzlNakZfakVxOGpxZ2ZCTk4yRkhmbmJGR3VvU1I0WFVkZmx0c1JiZGNkNGVoNFBYN3h1cnlqdUpwaVdReU1YcVgzWDd6TEpVeFhsY2c?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "US Crude Output to Fall Next Decade on Sub-$70 Brent Price Forecast, EIA Says",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:51 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYXYxa3Mxc0NJMGoxLXFWRUxaZTZSU1NVQ0pqMDhXR1JmNEVpZm4xV1U4Qzd1eVduMkdSaGR5RTNDaWtmNFg2eHN1NlVwVEkzaWcyRVBHNENvNTF1YmNhSjB2UjVhVm56V0M1YWN5M0NPa0ZuVVJnTUFSeWRYLWV1V1FaenlLdlZoV19IaHQ0NUpabGN4WnZlQlJiSkZRNHZBUm82SVdlZFVaUQ?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:46 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+    "topic": "Iran oil exports"
    },
    {
     "title": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026",
     "source": "EnergyNow.com",
-    "published": "2026-11-22 16:01 UTC",
+    "published": "2026-11-23 22:43 UTC",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
     "topic": "jet fuel naphtha fuel oil market"
    },
    {
-    "title": "The $25 Billion Problem Facing Australia’s Hydropower Revolution",
-    "source": "OilPrice.com",
-    "published": "2026-11-22 10:00 UTC",
-    "summary": "The Australian government aims to develop the country’s hydropower and Pumped Hydro Energy Storage (PHES) as part of its Powering Australia Plan, which targets 82 per cent renewable electricity by 2030 and net-zero emissions by 2050. As part of decarbonisation plans, the government hopes to gradually retire coal and gas-fired power stations. Meanwhile, intermittent wind and solar power will requir…",
-    "link": "https://oilprice.com/Energy/Energy-General/The-25-Billion-Problem-Facing-Australias-Hydropower-Revolution.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Iranian attacks in the Strait of Hormuz reach highest levels since the conflict began",
-    "source": "KOMU 8",
-    "published": "2026-11-22 15:47 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORGtPWmxKTElPRDA5aDRCcWttd2NxY2MxNXdLaVRqZTRUR0tLQ3lsNDVFVy1MQk9GU1NhMmIzcm9OU2RIbGxlcGRMa1JDcm5Sa0kzTEhxeUNVWG1fekI4OEVQZW4zc3BEcnBmMmJmVXA3YllNTVNsNmZWSGg5bThfMlpCNlM1NWdvWjBaSXdSV1NPOGp1NDhyTzJkVE0xSXVCcHNORVNIWGZXdVRPNW1CX1ZMZUp5WlBkUVE2RDJMblRWV1NEbXJiUWt0d1hWZkF5Z21wZC1Wb0VwTEx2d2Q1NHg2cHcxM3dRRTRzZzFVOG81RHZQVkN6TEI1YWd2LV9jQjdF?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
-    "source": "CNN",
-    "published": "2026-11-22 15:13 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazIzNmZVck5Udmx0UjFsVV9LQjJsSDhlUm95QjhZalplRUNIa1QyNXh0Z0lPYXVEblBmOWpWN3p3b0pXWXhyZko4cmlzSl92b19UbjNqS3NZUHJwWFZiZnZiRWJHSTVKMjBkNGFmdWJWcGpBcEJfSzROU0VjZHEyVXdOWWFkb2gxN1FaZ0N3?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Crude Oil Futures Volatile Ahead of OPEC+ Output Decision",
-    "source": "Rediff MoneyWiz",
-    "published": "2026-11-22 10:47 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWFJRDdRcU84dEdpa0JjcHI3UmxoR1Budkp5WHJjc2paRlY4Q215UUc3TmNpMGJfeUZZQzV6ZWNoNmxEaVJSaHAtVW9QQ2k4MktNT04yYzF5eVY1V0FMbGlDZkdkbEpGbDFuOGNXQkMxXzBDc1MyN2FMMVd1b3FsWWJ5T3hnUWN3UzdUX2Q5T3l2aFZ2X28yck90MlZSeC1mX1FoZzE5X1dlSW5P0gGyAUFVX3lxTE4taHpiQmYxY29jN2x1SS0yNWh0QzZmamdjQmkyNk84dFdNSWZZYjFNYzNuT0FtZzNsd3NqYTVib0lpNHBzTTFFYzNvSzRGVWttY1dzV3J4UXpmanQ5UjJobVFTWmptaDQtLXNxejA1cHJaSGxndjMxd3Q2akhhMVg5U0RwRXJtS0ZBd0o0TUI0UV9HNHlWaFFVbW42N0l5aVF1U2YyYkpXOS1lczAwVDJMYnc?oc=5",
-    "topic": "OPEC+ oil output"
-   },
-   {
-    "title": "Fuelling the future: The Grattan Fuel Plan for Australia",
-    "source": "Grattan Institute",
-    "published": "2026-11-22 10:05 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVHo1aG9VeXpUZWJKOVNNdS1MTFYtZG12UmNjV2wzc0o1MW1JaUhTR3VibERYUlYwVllsV3U1eTMtYnB0RFJwUUdVVnZ6Nm9HUUxzUEQ4MVFmUGRJY2VLSlVrbC1oMUxiX3ptZ21DVXhqTEJFYzdXMnBnSjJOQzRDRnRhOUhxV0J3WktHVXhBWQ?oc=5",
-    "topic": "jet fuel naphtha fuel oil market"
-   },
-   {
-    "title": "Iran's high-stakes gamble: breaking the US naval blockade to force a swift endgame",
-    "source": "Ynetnews",
-    "published": "2026-11-22 10:04 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JOVRoYUNVZVJDcERjLXExdHcyQ2x1bXVycWs5Zl9ZUTAteXZDNEFfbU02LUVHN0Fyb0VqSFVvM1RiSzlocnE1eE8xMUJWWm5yNEFmWkdiQzRBRzhGdml1Qk5UVEhBS2RjUFJONi1R?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "The Strait of Hormuz Constriction Impacts More Than Crude Oil – Yogi Schulz",
-    "source": "Todayville",
-    "published": "2026-11-22 07:29 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeEJlcWRpVXA5djFQdGhENWpYa2FLZ2YteEVVMjlHTGk2UW5KOW95MzJVclNvQWVPekkxRGdhUTV1NGdTOWlBM2tRMjU1SGtFZWlkR2JyNGZ5dVgtWm9JV0kzMGJrRnZ2TlpOak8wbXpNeGt4OF9oZmtvWjU2enNrYWNDb1hwRFFxazhlc2Zlc3JvSjJzMjJ0bXZFTndmczgtUXMyQmhhYW9pRnFnTkFR?oc=5",
-    "topic": "jet fuel naphtha fuel oil market"
-   },
-   {
-    "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
-    "source": "AFP.com",
-    "published": "2026-11-22 04:03 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ3l4aTVzUmYtSFhfZjVJdjlMalBiZGFfdXNCV3hjSWpZM0dScUNwbHB2dHEtYjA1RU83amM4Sm5Kd1JZNFVWWDEtYVlYbVpCYnRkb2ZjWmdjejBKUzRTTFNZUTMtVFBKMW1MbkVGNnhyLWVhSGtKZjRqOG8wSUtsOWZtejdzeUNYZmc?oc=5",
-    "topic": "Strait of Hormuz tanker"
-   },
-   {
-    "title": "Crude oil inventories +4.657 million versus -1.109 million estimate",
-    "source": "investingLive",
-    "published": "2026-11-22 01:59 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS3hVZFc3QVdnTG8xZDdjVDcwSW55ZzBlQmhTdzl4cEVGVTlfYVlFLVplWXg5d0x4Y2gxSV9tNjF6VHdaUHpBeHhWOUVNUHNwR0xUU1U3SnlheE83WU1oMWx3eE9YSTNNYkdEazA0NzJ3NFBKTVVjWWVTbGR1cUtYbGFjRl9hYnhuX0U0blRrbUppWktPQ3YwS2duWWxzSEhudVFhMDY5Zw?oc=5",
-    "topic": "EIA crude inventories"
-   },
-   {
-    "title": "Oil Prices fall 5% despite attacks on tankers, rising tensions",
-    "source": "Realnews Magazine",
-    "published": "2026-11-22 01:26 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTkdfbTBzVm9IUmpaRzZLcTVhaGlUZ01mSjR3SUZ0WVJvOVBnQk1INmRmT29PNUp5b21CVFhXYzh5YzRPTUhid25lT1ZIVDRUWXUwc0xhRVpuS0NibTRnbHk3anItMHk4S3ZsWmtQbk5KY1hpeENBZjFHWWpFcXJDbzlXdVpXOV84SzR5a1hUbXpReUgx?oc=5",
-    "topic": "tanker freight rates VLCC"
-   },
-   {
-    "title": "AI Boom Forces Massive Investment in Power Grids Worldwide",
-    "source": "OilPrice.com",
-    "published": "2026-11-21 18:00 UTC",
-    "summary": "The information technology industry is driving massive growth in global electricity demand, which is set to rise by more than 10,000 TWh over the next ten years. For this electricity to reach demand hubs, grids around the world will need urgent upgrades. The big question is who will pay for it. In its World Energy Outlook released this week, the International Energy Agency once again joined the gr…",
-    "link": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Forces-Massive-Investment-in-Power-Grids-Worldwide.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Phillips 66 vs. Valero: Which Dividend Can Better Survive Falling Refining Margins?",
-    "source": "24/7 Wall St.",
-    "published": "2026-11-21 22:17 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT1phMkNLWTJHcjZKNmdtWF9Uejd1aC1HTUYxX3JMOTBVUWJMRkRyZmJVT3lqWFZnVy1PbC0zZXdLVmdyV2otamppU1JwdGxJQjJSSmRMT2ZWeDU5ODZ6MUh3aVdRTDROdl9hOC0wQ0t0VDgwZDg0ZDNyTEdjaUFMTUZpS1BCekxyZXZpZnlkMnAzOEdoODd4NVdTckx5Nzc1ZWhmSWNmcEFoMnJqNVhhN3Z2MHZWTFRRdUNGSHpQUzh6QQ?oc=5",
-    "topic": "diesel refinery margins"
-   },
-   {
-    "title": "Wind Could Cut the Cost of Round-the-Clock Solar Power by 18%, Ember Says",
-    "source": "OilPrice.com",
-    "published": "2026-11-21 16:00 UTC",
-    "summary": "A new report from Ember Energy shows the enormous cost-saving potential of wind energy. While solar power and battery storage have taken off on a global level, wind power has been slower to expand. But according to the new report from the prominent energy think tank, this is a major missed opportunity for energy security, emissions goals, and economic returns. “Solar and batteries can already deli…",
-    "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Wind-Could-Cut-the-Cost-of-Round-the-Clock-Solar-Power-by-18-Ember-Says.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "OPEC+ Oil Producers Set to Keep Output Targets Steady at Sunday Meeting",
+    "title": "A Look at Iran’s Kharg Island and Energy Sector",
     "source": "EnergyNow",
-    "published": "2026-11-21 20:15 UTC",
+    "published": "2026-11-23 22:41 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaGdXMERCMDNJNHNpTERRUm1QR2pGTThwOVIxVEUtdVRPZU81TXRkWWZwS2NGOVB5UTRMV1NPcEdtN0VZU2JZZUpCYVFId2FOWTd4T3d5NmYxbE96WG4wLU1xeWxhTVJlakhPa3JrNFY4NHJZRDVKVFVDT0hzZFpzRmpTak0wR2lvekVqemlBOUJVYUo4OHVZSW83cXhsUy1PTXc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb1dFSm8zOVlodlZRWEVlQVhtTG0wYmVfUGI3WFlTek8zMFltZUVkVnpfN2Yxb19HclM4ekNzMlFHanEyc19FUmpkZnlCMVdVMzVNUUhpckRlc083cUZNTXk3LUc0c2RHVGZMd3FPUW9ieFlDMThZRldlZlVybzZmR0dMMlY?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "Oil Price Uncertainty as Negotiations Continue - Energy News, Top Headlines, Commentaries, Features & Events",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:31 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWMzSkp0RHJnYTQtRk83NFVnaTlsNnE3eGhWbmZ1WDZXNkZuZUk2UXZoTGxZMTRhVG1xYWxQQ0JQSnFPN1JhaG1nR200Z25XTk16d3AzSkxzTE1wUHhUWVJTLXFNRzhLMnhBLWNnakpOU2VDMDVILXRsLWVJck1PVnR4UGw?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "Saudi Arabia Crude Exports Fall to Three Month Low in December",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 22:28 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSHMzS0F1SnlVWXA4RU10OUJxUFJIajc1eENjdUppdWxDYWlrczQzb0p6SG5POEFtVk9fb3lIcVpyTTVJTXJsbXpyd01kMTd5bEpydGxpVjliOXhRQUFUSkx5TTBreTZ3Y211Z3JuSWRlTEV2OHJ6WklrSURUMXducHcyNUFUYzZkWXd0dm94VlVhU0pyck5RdQ?oc=5",
     "topic": "OPEC+ oil output"
    },
    {
-    "title": "Iran prepares oil tanker convoy to break US naval blockade, threatens Gulf facilities - report",
-    "source": "The Jerusalem Post",
-    "published": "2026-11-21 20:07 UTC",
+    "title": "Ukraine’s Attacks on Russian Energy Sites — What Has Been Hit?",
+    "source": "EnergyNow",
+    "published": "2026-11-23 22:27 UTC",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rV0VMYi1lUFA3MTFvdG1tZzhnLThNMElNajh4eF82d2J3SDlXU3p1RlBzdTNGakFPaG42cmxuRjRWaXlCVGtkMV9HUU1BTEdKV19fZUgtUGM2QnJ2bUdTeXFpNnBrRGFWclE?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "Trump’s Coal Revival Is Costing Americans More Than Expected",
-    "source": "OilPrice.com",
-    "published": "2026-11-21 14:00 UTC",
-    "summary": "United States President Trump has doubled down on his support for fossil fuels since coming into office almost two years ago, including the most polluting of them all – coal. Just as many coal plants were on their way to retirement, Trump stepped in and stopped them from closing, backing his decision with federal funds. Recent assessments suggest that the move has cost U.S. taxpayers billions of d…",
-    "link": "https://oilprice.com/Energy/Coal/Trumps-Coal-Revival-Is-Costing-Americans-More-Than-Expected.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Thanksgiving Gas Prices Could Break a Record Despite Recent Plunge",
-    "source": "OilPrice.com",
-    "published": "2026-11-21 13:10 UTC",
-    "summary": "Gasoline prices have fallen nearly 60 cents in a month, but Americans heading out for Thanksgiving could still pay more at the pump than during any previous Thanksgiving. The national average fell to $3.69 per gallon on Friday, according to AAA, down from approximately $4.30 a month ago. GasBuddy expects prices to average $3.62 on Thanksgiving Day, which would surpass the previous holiday record o…",
-    "link": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Britain's Net Zero Revolution Has a China Problem",
-    "source": "OilPrice.com",
-    "published": "2026-11-21 12:00 UTC",
-    "summary": "The Labour government has been accused of “capitulation” in its trade relations with China as Britain’s transition to net zero faces a number of security risks. A new report, published shortly before President Trump’s momentous trilateral meeting with Xi Jinping and Vladimir Putin, has highlighted the UK’s dependence on China for net zero-related technology and potential vulnerabilities in supply …",
-    "link": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Revolution-Has-a-China-Problem.html",
-    "topic": "OilPrice.com"
-   },
-   {
-    "title": "Brazilian pre-salt Tupi crude's premium for Asian sales falls from nearly US$20 to US$7-$8 a barrel as tanker freight rates retreat about 50% from October’s peak",
-    "source": "CPG Click Oil and Gas",
-    "published": "2026-11-21 17:14 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPQlh6R2RZczFNUzhpNm9NUEs2UkZaVWRXRWRzNUxNbDA0QXl4NzRHd1JIX203SFBBUlNlSlk4eWhzY2d5NE1qU3pnN0NYRXAyUkNDMXlRVmw1Q3FZR2doMGtIaGZzRVE0a0hFR2pIREtvby1SRmk0NXdIWUFaRE5KZjN3aEdpXzFadjVkZnc1V2J2NGpoNXpRTWtOdkNkTDYwODRiUC1WcjVVSUNpOVloTU5wYVFWODdDbERFNXc3VkhfTGZyVDNYWXZuT3RJdS0xWkZwRE4zaG5YZ3A4Y2lXc3ppQ01CUWtMUTFmRTM1V2pnTEFDVlprU1pPUXlmUlk3dDdra2VpaGtTNE0?oc=5",
-    "topic": "tanker freight rates VLCC"
-   },
-   {
-    "title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
-    "source": "WSJ",
-    "published": "2026-11-21 17:00 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmRRX05leU91eDNOcGU0ZjVxQ0N2MVpwQ3lCZXFsNUVDcDlySkJ5RFZfLTR5QkwyUF91TzFkSDNpYTlPMzZTaFhfWmJ4TEpKTVAzTEJhNGVYRFltRmRMVDJfdUVpcFoyYnRRRGNEX3ZKRU96bjVxYjZEQ2V0WWFZOXhDb3dTT2FfTGpVTWtjX1JLeVpXUzN3OFlSdm5DdXJ1YzlHSnNJa3pjT0FDX3c?oc=5",
-    "topic": "Iran oil exports"
-   },
-   {
-    "title": "Ukraine launches major drone attack again on Russia",
-    "source": "ABC News - Breaking News, Latest News and Videos",
-    "published": "2026-11-21 16:13 UTC",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVOcEU1NHNfcVBOTXV2VHNGUGpKNnltdGFvMG5ZSUxpTVkwSXo1YUVJa2FNdUI4VDIyUEZtcEJLV2VSTTVTNzJBS0JWd2E2ODlEalZNdmdXUWZsdmQ3dnlsWGxSRkM4QS0wYlZrUTYxTDFKNUt5b3AxQUNLSmZ6SEpGOXhuREk4MUJIUXNiTXc5RW44Q29JQlNMWdIBoAFBVV95cUxPbExNUG1BUWxQMnU5SFZ6VENZOGdTQUtVcjl0VllxMUNHcjBiWjhMTWpHdVNRQ0FvODhrUFQxdTZYOTBOYkpwbWpTdFhBVDZJMTJMSGE5MTE0X0Q3MzA2Umd2MWRQdHNEckJrTDEtWjJQMy1URDNGZjI0XzZxR1ZtUjdhS1BNUEc1Z1ZDb0pXdEs5clVlNktWSUpCOUVSTlJR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZzBySXA4UWw2TTY1LXEybzNBY1UzbG5OcDVaZDB5T3B4c3hvbTlfSWZ4WUZIQW5RZldBRW9SUnpaeW8zNkF2OEpMb05NcmVQU3pGdWlVUml2Yi1Ua2hEZXpiRHhGZ1AtZmk3WlEzVGFPSkp2djFfTWV6b20weVpCYVpseE9ZNnNKTXFHeWx3dGRra2F2?oc=5",
     "topic": "Russia oil refinery drone strike"
    },
    {
-    "title": "UK Races to Rewrite Nuclear Rules by 2027",
+    "title": "IRGC: Three oil tankers hit mines, caught fire while transiting Hormuz with US support - report",
+    "source": "The Jerusalem Post",
+    "published": "2026-11-23 22:23 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XWExsME9tRlJLdnpnRmdYX2gwVmVoa2p6eEVYWEtTaHVPaDNJTGw3SVp5WS1vQlNaX2xHb2tWeE5LTW9IVjRyVDlzWFFNRzZOUWc3MWtjSFczM3JpTkk3TGdTYzc4YzFmN0E?oc=5",
+    "topic": "Strait of Hormuz tanker"
+   },
+   {
+    "title": "PolitiFact: The impact of the Iran war on oil exports",
+    "source": "WRAL",
+    "published": "2026-11-23 22:14 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZTl3ZV9uLXFzaG1hbGxYYWFjRTRseFVtWmVkanJQVTVhdDRjb3pRV1RGU010REhsSUo5dVBXWjF1eGZranlabWxENGZ6MHpsV1ZhOWRfaTAzeUNjY0NRQnhZTzJnRVM5eHJwemIyQ2pqZ005VFpXeGhldzcybXoxNGFfZG1ZN1BxNndHck9xdw?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "Sales at Petrobras (PBR) rose 37.4% in the first nine months of 2026, and profit attributable to shareholders climbed.",
+    "source": "Stock Titan",
+    "published": "2026-11-23 22:04 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSmFQeUx0WF9jUmlzS3dEZEdoWWxoOHdXQVV4ZGYyZnN1Z2RHZDFyX2FaRUh2cW5vMkFzZkszTG4xLTF6X2Y5bXo0M3hXNGV1bGtKUXJVWlpib2ctd0lQQ3JHVzV2Z2xQS01mbFdtcWttRHZaMGlHQnVHQ0JxVjVqQm91QVFpZmFDNlJHRHk5TmpWSmcxRWFLZ2w3UHN0WldIbHNKNjFnT1lQR01VRGxqb3FFRGhvYWEzd0pyRW5EVVhzaUdvcWc?oc=5",
+    "topic": "jet fuel naphtha fuel oil market"
+   },
+   {
+    "title": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
     "source": "OilPrice.com",
-    "published": "2026-11-21 10:00 UTC",
-    "summary": "As part of its green transition plans, the U.K. government aims to accelerate the development of nuclear power. The government is already doubling down on expanding its renewable energy capacity, and it hopes nuclear power will become a major contributor to a more diverse energy mix that will support its decarbonisation aims. To achieve greater nuclear power deployment, the government plans to com…",
-    "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/UK-Races-to-Rewrite-Nuclear-Rules-by-2027.html",
+    "published": "2026-11-23 16:00 UTC",
+    "summary": "The Federal Reserve will almost certainly raise interest rates on Dec. 9, and it will do it without seeing the November inflation report, which the Bureau of Labor Statistics has scheduled for 8:30 a.m. the next morning. Policymakers are committing to a hike that nearly all of them already expect, and the last report they did see ran hot. Consumer prices rose 0.4% in October, above the 0.3% econom…",
+    "link": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html",
     "topic": "OilPrice.com"
+   },
+   {
+    "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
+    "source": "WSJ",
+    "published": "2026-11-23 21:08 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkRJdUt0LVhZdzVhR0RpSnN6RWh6cDdGQVhOUU9vNENLN0hnSXB1YXJFU01rMzZBaXhuelM3ODlra1hKdnRxcnYweGNRSmFmSEpnMzJSQWxkOXZqZVM3NjBrZ2UwQS1PQS12di1uaHFUQWJRZHE2aHhxMnlLcVJ5Z3owcXd2WTV4NFJQSUM0SWplUVA5bW80ZU9fdDYzV1Z5QnFvcW1kdlhPMW8xc2JRQnVJc19mZw?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "Will Batteries Kill Off Gas Turbines at Data Centers",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 15:00 UTC",
+    "summary": "Perhaps you have heard about the daily “duck curve” in electricity markets. Abundant daytime solar energy displaces higher-cost forms of power generation during daylight hours. It creates a price chart for power that resembles the belly and neck of a duck. In the old days,, as the sun went down, gas-fired turbines (CTs) were called upon to provide power for shoulder periods of daily electricity de…",
+    "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Will-Batteries-Kill-Off-Gas-Turbines-at-Data-Centers.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "U.S. Targets Financial Networks Behind Iran’s Tanker Fleet and Oil Trade",
+    "source": "gCaptain",
+    "published": "2026-11-23 20:36 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbi1GbTFtZkZxbHpKOGFpcUEtd2pNRElVQk80clN2UVY2ZG5ZbS0wTlQ3X0N5REFOdy1TWUJiLVVSdi0xQllHWlFlXzk0ckQ0aGtjeGx0VEtCc2NaTVR6cHBvcl95T21Cb3VtSll6ZW9QWlUzSUtFUlBWSTZfOHIxVHJNdmdPaS1Cb1JBbmF6dm56Sk5xOG1V?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "Pakistan and Iran Move to Boost Energy Cooperation",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 14:30 UTC",
+    "summary": "Pakistan and Iran are nearing the creation of a joint working group to boost energy cooperation, with a focus on electricity supply and electricity transmission projects, Pakistani outlet Business Recorder reported on Monday, quoting sources with knowledge of the matter. The two allies are doing preparatory work to set up a joint working group on electricity and energy, expected to feature discuss…",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-and-Iran-Move-to-Boost-Energy-Cooperation.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Washington's Iran Strategy Risks Strengthening Its Biggest Rivals",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 14:00 UTC",
+    "summary": "A renewed US-Israeli attack on Iran will bring economic disruption, security risks, and geopolitical realignment across Central Asia. The five republics would prefer to avoid involvement, but geography limits their ability to insulate themselves from the conflict. Iran is an important potential outlet to the Persian Gulf, the Indian Ocean, and wider markets. The consequences depend on the duration…",
+    "link": "https://oilprice.com/Energy/Energy-General/Washingtons-Iran-Strategy-Risks-Strengthening-Its-Biggest-Rivals.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "UAE’s Post‑OPEC Expansion Push to Lift Oil Output Above 5 million Bpd Next year, IEA Says",
+    "source": "EnergyNow",
+    "published": "2026-11-23 19:45 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRmJpanNXb3lZdl9HNmlDNVN1WFRPQmktekdfMjdPUjM5d2RhZFRYUjloVzZJSFgtbWwwX1JzWWNlSmR4TTgzODlkUUoxb1VHM2FYXzhKTzJmYVdrVGlYXzBweUdaNXZHYU5TeTk1UFNYeEFXM08zejR0U0JPY0pHbnNWMEc1aW92cV9mbkpneGI4eXBDb2huTFpvV2tNaktYeWJfdnRwc2U2R3JGZWwwcXdmOFktUm14?oc=5",
+    "topic": "OPEC+ oil output"
+   },
+   {
+    "title": "Current price of oil as of November 23, 2026",
+    "source": "Fortune",
+    "published": "2026-11-23 19:32 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oWktIbnhqX1l1MHZidXlxaFJtNnhKcnpPVG0wRGNBOEVLdU9IZDB5QlQ2NHhQQWViaEc0UWxzY2l3NzlYQkdsTDJRUHhSWEhfMDlBSjFhVjlJUDdZNkhOWkpR?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "ConocoPhillips to Exit Norway in $4.43 Billion Deal with Vaar Energi",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 13:30 UTC",
+    "summary": "Vaar Energi has agreed to buy ConocoPhillips’ Norwegian business in a $4.43 billion deal that includes Ekofisk, the field that launched Norway’s oil era, and stakes in some of the country’s largest gas fields. Vaar Energi said Monday it had agreed to acquire interests in 13 producing fields and related infrastructure in Norway and the United Kingdom. The portfolio includes the Greater Ekofisk Area…",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Why Blocking the Sun Won't Solve the Climate Crisis",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 13:00 UTC",
+    "summary": "When people think about geoengineering the climate to stall or reverse climate change, they often think of university and government research labs. Given the scope and importance of such a project, it only seems natural that governments would be the ones to implement such a momentous and fraught project. But there is now a new player on the scene: private companies promoting their technologies and…",
+    "link": "https://oilprice.com/Energy/Energy-General/Why-Blocking-the-Sun-Wont-Solve-the-Climate-Crisis.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Ukrainian drone strike forces major Russian oil refinery to shut down",
+    "source": "TVP World",
+    "published": "2026-11-23 18:24 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZk9MWXFSTnlJWlhCNmhzdWdRRS1lbGlTX3VyXzBSZkZBSHdleVRwa2JqdGloSW5fT2hwb2N2TFl1MHRBNUhxdHRPemFCWHZZZnAzdmN6VXNqV0pUZWlVMkV3N3ZpN0Z5MWFScTdET0NUakhVQWRmLXl5THlDOXlIQ1BnbHZvNEN3UGxpN2NpZjMxa3BCWUJCQjd6d2FDc1JLalpFeDBVcHhmd2s?oc=5",
+    "topic": "Russia oil refinery drone strike"
+   },
+   {
+    "title": "Oil Prices Fall As Middle East Flows Increase",
+    "source": "Marine News Magazine",
+    "published": "2026-11-23 18:14 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WM0VKODV6eFhxdjRRNEo1OF9VUE95d3lvMTZfNWk5MUU4MndhOGdCaDVwRHQxOWdnNE5leHdmaVM0T2dKS0ZYekR4LXJ3SGlyM3RtVFZmSDdPMnA3T3NIQ1VZVy12ekJNekJYY0VkQjNBVEY3YzlaZ3lXQ0E?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "The Energy Transition Needs More Metals but Less Extraction",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 12:00 UTC",
+    "summary": "The energy transition is often described as a switch from one extraction industry to another. Instead of digging up coal and drilling for oil, the argument goes, we will simply dig up enormous quantities of lithium, copper and nickel. There is some truth in that description. More mines will be needed for several important metals. But it misses the much larger change taking place underneath. A rene…",
+    "link": "https://oilprice.com/Energy/Energy-General/The-Energy-Transition-Needs-More-Metals-but-Less-Extraction.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Japan’s Electricity Prices Surge to 2022 High as Cold Weather Arrives",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 11:30 UTC",
+    "summary": "Spot electricity prices in Japan surged on Monday to their highest level since August 2022 as gas demand is set to rise amid expectations of snowfall and colder weather in the coming days. Expected higher gas demand in the Chubu and Hokkaido regions, with gas now at its highest price in four years in both Asia and Europe, pushed Japan's nationwide day-ahead electricity price up by 6% on Monday com…",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-to-2022-High-as-Cold-Weather-Arrives.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "America’s Biggest Oil Export Port Faces Thousands of Cyberattack Attempts",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 11:00 UTC",
+    "summary": "The port that ships most of America's crude oil overseas is now fending off \"hundreds or even thousands\" of attempts to break into its systems every day, Port of Corpus Christi CEO Kent Britton told the Financial Times, as hackers step up a campaign against US ports and the cargo ships that call on them. The stakes at Corpus Christi are hard to overstate: about 60% of US crude exports, roughly 2.3…",
+    "link": "https://oilprice.com/Energy/Energy-General/Americas-Biggest-Oil-Export-Port-Faces-Thousands-of-Cyberattack-Attempts.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Oil Price Forecast: Can OPEC+ Prevent Brent From Falling Below $90?",
+    "source": "CryptoRank",
+    "published": "2026-11-23 16:53 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY2s5TUNSQkJVSDQ5SUUyNXNPVlBBQW8yZXhqZ2gyTkhWSF9tYlNkMkNZVjlWay1JLWxyZFVtcVJRWlM5V3Y4emMwZnp5dFBmcGVQZVhnU1NEN3Q0OXdoaU9YOHctSE9LWnZUd1locE9ka0FJMnNmV3YwcjQ3SmNwdFA5ZzR3MWc3UVE3WVZHSHNIUzlYZ3VOOGNFQUU2YmxMeExR?oc=5",
+    "topic": "OPEC+ oil output"
+   },
+   {
+    "title": "Small Refinery in Southern Russia Halts Operations After Attack",
+    "source": "Bloomberg.com",
+    "published": "2026-11-23 16:52 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQejNaeUpJN19YQUZRaWFyQWd1cVdYVGl3TmVpbjg4czdfV09wNjFFR3N4U3VjVmpNOFItZHZ6NDZHOXlMWlM4bV96VHFOeThrN3FmVlhxVzVmR3VCZnZteHBxZk52UmJWS3ZLQmhIUFhVaHBIT0xYaEJYZ0Y4Q2RBUUFnZFNFRHNBRlVfSW5WX3BJZmpFQ1k0WTB1VU1HN1FsYVRlUnpoYk1aSm5NcEg1ZldsNE0?oc=5",
+    "topic": "Russia oil refinery drone strike"
+   },
+   {
+    "title": "Storms and Drones Disrupt Russia’s Oil Exports",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 10:30 UTC",
+    "summary": "Russia’s oil exports from the Baltic Sea and the Black Sea have suffered loading delays and disruptions this month amid frequent storms and bad weather exacerbated by Ukrainian drone attacks and local alerts of attacks. At Russia’s key Baltic Sea ports, storms and bad weather have already caused delays in the loading of more than 10 oil tankers, traders and sources with knowledge of the schedules …",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Storms-and-Drones-Disrupt-Russias-Oil-Exports.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Iran continues to export oil despite US statements",
+    "source": "Mehr News Agency",
+    "published": "2026-11-23 16:13 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR1RMX1lXYXVvd2FVN0lEZjBTWGQzd1o3YXZpNVVBY2dFekRKSUN1WEdjQ3lkTVQxNWIxel9VdzNtenQxZ0ZFd0cxa21WNzluRDM0Z29RNHpuSUFDNzhHQzZ3TTNtclFlZHNMX3lNUTl3aXpXa0hmQTcxNjZVbkd2WE0zU3c1S2hoRG0xQjk3UQ?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "What Is Trump Up To Bombing Iran’s Qeshm Island?",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 10:00 UTC",
+    "summary": "The Republican Party’s loss of its majority in the Senate and the House of Representatives in the 2026 U.S. midterm elections has left President Donald Trump constrained in what he is able to achieve domestically. However, internationally, he is not so shackled. He needs no congressional approval to implement or increase economic tariffs. He holds on to the right to dictate the terms of U.S. allia…",
+    "link": "https://oilprice.com/Geopolitics/Middle-East/What-Is-Trump-Up-To-Bombing-Irans-Qeshm-Island.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "IRAN’S “CROWN JEWEL” – Kharg Island, Struck by US, is Key Hub for Iran Oil Exports",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:56 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wUjF2azFyVktMZHQ0bVF5YmpsaWh3b1BwTkNhY25oVkFJaU5WUGYzYkw5enBOQUtsV09wZEViaExEeW5jSEhtd2JBeXJrdVEyYllhLU9YLXJlRU9WcV9nZFZHMGRacEFaOFZEQ2NnMy1FdEl1RlNsM2VNZw?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "US Crude Stocks Rise, Gasoline and Distillate Inventories Fall – EIA",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:56 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZjh5VW1uaXh0b09MeV90WHNBazlpaU82WVZaNU9DM2pzR1p6UlE5cXZZb2pLS3NsU0dWWWZFRWdmNVBnXzdLd3g2QXJkV0drVkg3bUljMDM5V0NGRlViZkgzNzh1aGVuaFZMcWJua3JsS0poamNEYk5YN0FoZVFCZXJhMzdlMmhXWEVrSjFlVkh3aDJrUVlrRkNwVHJsVGs?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:51 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "Oil Slides Nearly 4% as Returning Supply Outweighs Gulf Attacks",
+    "source": "OilPrice.com",
+    "published": "2026-11-23 09:51 UTC",
+    "summary": "Crude prices deepened their slide on Monday even as Wall Street rallied on Nvidia's reinstatement of chief executive Jensen Huang, with West Texas Intermediate (WTI) trading at its weakest level since late August. At 10:29 a.m. ET, WTI was down 3.5% at $80.50 per barrel, Brent was down 3.6% at 89.23 dollars, and U.S. natural gas futures had fallen 8.2% to 3.130 dollars per million British thermal …",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html",
+    "topic": "OilPrice.com"
+   },
+   {
+    "title": "Iran Was Not Preparing a Tanker Convoy to Break US Naval Blockade",
+    "source": "WANA News Agency",
+    "published": "2026-11-23 15:42 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTWw5WFZWS0Yyc1FyTnR4b3J6LU1JT3J1YVAwUUZGNEFMTDF5YVVZUnJJSG9NbHhiMWdiaUtNQVotWlptTmJnSVA5WEQwZHJsWTd5WE1YOHFkeGJpZnVKQlo0ZERiVnBpNzJkT25pWnJmdDVORk4yUGo0bzJqLVdHcWVma3NSX1BIcGkwa2l3?oc=5",
+    "topic": "Iran oil exports"
+   },
+   {
+    "title": "Greek owner Aegean Shipping returns to Cosco Yangzhou for ice-class tankers",
+    "source": "TradeWinds News",
+    "published": "2026-11-23 15:40 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDhacHJsNUNEUnA3VEFXWlNTUVVZOEZOUmxUUzBUTU41cVc4UmpFbFNSVzBaTHAyOWdSZHFGOTl1Y01OZ1V4NjVXZ2JRQ1dxRzc1TXBtVHljQ2g2SW91VGdWN0R5dFdUYk82SC11Ym53d1lxMzZ6VlgyaWpSMDM0NzdESllIaWRVVVVoSTFfOUJmeENaTmREdlFQWjhEZlcxUl9iWGJTbkY1RmZLbzdzOWtxeEFORE1vU0EtbVdNVnZHRndn?oc=5",
+    "topic": "tanker freight rates VLCC"
+   },
+   {
+    "title": "Diesel Shortages Could Persist Well into 2027, IEA Says",
+    "source": "EnergyNow",
+    "published": "2026-11-23 15:33 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMkhUdTNyTGFsbS1QQURmMzdoU1ZiM1NaQXBMSjZCOHZFWE9maU12R1F0U0VVUzFfcEVjdW4zOXluX0pEWm82ZzVxNnVpN2ZFWURnUy15ZFJOOGtKQ2JodnVvMFp6S1oyUENiTzFEOXdmUkxISUF1Um9uM3p4bm1hWmp4eWNLZkdMSEZDZg?oc=5",
+    "topic": "diesel refinery margins"
+   },
+   {
+    "title": "US Crude Inventories Rise as Refinery Runs Ease and Imports Climb, EIA Says",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:27 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOE9PZ0UxaEFFNHFkd195R1JjeFMwSmVGOUZIQlNnUGR5cUNCbHhrSDNMQTZuOUwzV05KOTNvOXYtdDhCVzFLaWM4UjBWaWc2UFVOdlBoNWFlWVN6eFloNFdLSVRIV3k4ZmhRak1MeEw0S2RwaldUdFhYV0JuZFdmR1p5amhNbFFIZDVrQ0dsVmtoN2ZRdzhCTThMSFp0VG9xcWg4dEg4b0o?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "A (TEMPORARY) GOLDEN ERA – Iran War Ushers in Oil Refining Golden Era. It Won’t Last: Ron Bousso",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:23 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOGlwWjVkSFpSSFpWMDF1S2JsdXVYMDVmb3FfTng0Q0xrWlZFRWwtLVEtS2hLWjNfaHJOQlp2dEg4a015MnlkeUNWLVdJQXFYbEV3QWp1MDJBaTM5NTBkSURRalp1QTJDWVM5NW1DQlZyeDhyQUg2N0lwMmNFYmlad3Q2VXJVLVhxeGFheHdkOFR1dWhyY3NQZ3dIYlFqWll2NDNTT1Q3TFJsVEktcERzUkV0RWlHbVROSG1DZA?oc=5",
+    "topic": "diesel refinery margins"
+   },
+   {
+    "title": "US Commercial Crude Stocks Fall to Lowest Since 2018 on Higher Exports, Refinery Processing, EIA Says",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:15 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX2tvbWFHeFJtczBRS3dQSzAzLWl5bFVhQU5MNC0zYjJ3VElYOVhrNGJYbkZObVFBQTlNUUdLZktCUExiUVpteFNTM20wUFp5c3gzMzBIbHJ2M0ZFX2dXdkRFMHhRcEJwZHIyRWU4QlRjYnU0YzVNcElfaEpvUTdBLVlfNVVtYUlwTm90QjJINDdSVm9tRzFzTnphN0g1R1NsUjJpREpaOFQxQ2FiNTQxc0s2bzR2UG1KejdmTjNkbnZhMzVDTEdCVEhB?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "US EIA Hikes Oil Price Forecasts Again as Iran War Drains Global Stockpile",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 15:11 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLUtNdFF5SVVvSHJ5clNhTTg2NGthUEM5UmNkYU95UENtUFdWTzRBUWJ3TDJ6ZE1Ibk55V3pGaU9nM2JoNVVaa2tmQ2RCb1haRnlRNUhqMkRHVkJPc2ZOcjJPV0pQbWROanNOWEtTYXJRbzJXTXh5c0FFdFFhZW1WaEJ2UEJxYzVCRm13YUFNMlZ2ZFQ4U1gxWVpJOE1IN3dRb1NmanJrMTA?oc=5",
+    "topic": "EIA crude inventories"
+   },
+   {
+    "title": "Russian Refining Drops 45% as Ukraine Extends Strikes to Druzhba Oil Hub",
+    "source": "The Defense Post",
+    "published": "2026-11-23 14:48 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HaHhoTWowWTlhOEl5LVQ0S0JZSjZaSDRMT1JLeEZMOFBjSFRlVVFQekFLWlk3QTlHbGxwWm1pNktKbnQ4cVhCZUdweHc4Skh2Wm5oM1puYmROZEFId2t6dHNLZmQ4eFZmQWR2YmFUU3FpVk1fa2ZlWtIBfkFVX3lxTE0yY3l3NzRTckRMTFFsYk1zVWRnRkhRWG9iMWtaV3dMUW9BRzFRTHNCeFdKcUN0SFozbDJ3LWJ5VDVXamNUOXVXeENzdTZuNUxqMmdzWTg5aUtrN2pjMFkxbi1fQ1Q2TTJ6R3RsY01ZV2luRnVITGJSNUxCeDNVQQ?oc=5",
+    "topic": "Russia oil refinery drone strike"
+   },
+   {
+    "title": "Brent Drops Below $90 as Wall Street Splits on 2027 Oil Outlook",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "published": "2026-11-23 14:30 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeHpwLTYwQnctTFJGT2Q1cGRxTklyZnZnT1EzWVo5WDBSX1o3djNoMzR0N1FVWUlJYXpEYmh6SUZ4WEowdmVxeEF6cE9xRlN2dV9oQ2E1NndHRks2MTRkS2Z5YmFkbVlWdERpT1NFTXdyVnlfTl9hVW1NcFlsUC1kbG1KOE5WODE0RGRJckxyaER1N1pFeExkNnZ0cnhJYVFBTkdibXRTOFVuSzloNVpZLUExQTJKNzA4OEHSAb8BQVVfeXFMT01qakNVd3lvVFYwT2pxSkRfdk9HbUQ5RTlLcTRHazFfSkU1dndUeWJZT2c2ZGd5a2NQREpFRzh1YzhjOUQ2RjZYY2UzbUtWUW5qUWh4ejF1TkNzTDc2T1lrOGhZend0Zm1aZF9ITklQdGg0T1AzMlFya2FnVG14ZlFEQmx6dWh4SHF0SFNTbElMbE82cXVhWmpQX2Vka1Izbjc2Tjhjc3NqYVgxYmRCazg0N3hadVJoRjJFSjV0SXc?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "'A Giant Hoax': Trump suggests recent gas price drops are linked to the election",
+    "source": "Yahoo Finance",
+    "published": "2026-11-23 14:20 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjdHdnVUVW0tdWhESXJBTlZBM2lEMlF6ZXFaQU9TNmFHa2FXa0NXdkVtdExfUlk0a0tfTWI1Nms0WDdLWFRncjEyaWFvdDZjVk13SmtCZndTYUNrdTBoQUw3Qk5kQWIxeFhzS2V0a2VYdXhIckJoSjJCdWtxX1pTREN6XzBNblgzaFlfZWdjWjlteTM5ZDVkcnJtakkwaXBnS0FUNFJQMnpkbnJRYXBGOEpVc2UyT3QzanpfeV8zOTZrd3NQT1NWR1lKNFJtdw?oc=5",
+    "topic": "oil prices"
+   },
+   {
+    "title": "OPEC+ Meets Nov 29 to Set 2027 Quotas With No Plan Past December",
+    "source": "https://houseofsaud.com/",
+    "published": "2026-11-23 14:06 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lNXgtbkl4Y2l0WXRLNHBNWVRTdHJ6SEdnX05ycVNOQjIwb0Z5X3pHcWh3S01XQVphUHBIUDdMZzNMel81TlJ6TGJZOTZCOVNlR0g5VnhqT0hzRUU?oc=5",
+    "topic": "OPEC+ oil output"
+   },
+   {
+    "title": "The Zacks Analyst Blog Highlights Valero Energy, Marathon Petroleum and Phillips 66",
+    "source": "The Globe and Mail",
+    "published": "2026-11-23 13:58 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTEpNMlpZRTAwcWFJT08xelRvLXR6SmgxMjdISkhEVTJIRVRZQVJYM09yZE1ocE9Lb0xJdDhjMnhla19Ec241TXZkUVh0ckU3OTgwTnprdkNNTHVPYVVxZjM0Rk40VWxyTW9xNWliNy1aV3JXSU9SOVRwRHg4TE5MTFBnaGJ6TDQ0TjlpTkVLcWktdll4ekc5TzZSZUNuOEt2VEtONG9jWjh5N0FrQ0ZSa1JqYjhYdlk4Smg1anNQWkFIRm9YaVkzbEZETGdRc3lfLUQxUE80U3RUelQ1RGZkdHFIY0Q4UW5Qc2Z5QVJpQ1p1emZCeUpkY3lR?oc=5",
+    "topic": "diesel refinery margins"
+   },
+   {
+    "title": "Could Iran break the US naval blockade in the Strait of Hormuz?",
+    "source": "The New Arab",
+    "published": "2026-11-23 13:56 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVVdCRWVjaEM3WXFzZ2xvNEJqWGZqYXVVdmRXV0oyOHExSVVhU3dCYXd0NXVXVklvdFFaZ1IwNFdtY0hmRzV4eUJpTXBMZ1NlWVdVa183ckNpQnRpRnFQMEdiVjZiTzBISl9VS2JJdG5PaGpCTW5JUkRaOGxNUEFDX3VaZ1VLTTY20gGOAUFVX3lxTFB5VVlSaFZ4b0o1N1VXa08tXzFJN1J2WDVpMC1GbnFYOGFxdVZlWEo3U2t0aDdwbEo0T1NlNmhmUlJyN05vMGN3MHdma1F3T2VtVi1FV2FkMkZBVFlGSWRhX2hfQWRUamhHTXhxUjFmaG9VaTJYMDNsZXVYSmwtUldXTGlvT0UtR1M5cnVKWVE?oc=5",
+    "topic": "Strait of Hormuz tanker"
+   },
+   {
+    "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+    "source": "Spectrum Noticias",
+    "published": "2026-11-23 13:56 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjU1UzZ5a0xXUFM1X0diZGhaY25EeGtKZV9HY1ptbFVsZkF0WkNMVmYwa3lsQ3V2NEY5bkJENzBkaExQLUx3TThaNmdFSlRXZk84WFFORVFxdkhaN3Eya0NTcVAyOWNJYkQxWFhjeXZZZTVhd083Wmt6Sl9fZms0dVc0ZnhwVWVhZGZlUEROWm9zazFJTzM2cjJVdVRidFk?oc=5",
+    "topic": "Russia oil refinery drone strike"
+   },
+   {
+    "title": "Brent crude oil price on Nov 24, 2026 at 5:00 PM EST",
+    "source": "Robinhood",
+    "published": "2026-11-23 13:28 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVGJyZDFzTTdER0oycWhwRk9EVlpBSjd5ZWJXXzlLa0NfSnFJRmdUVmZIVlo2NF9DN0ZDLVBMNzhydGhkMlhZWldZOEN1VWdYR3V3UTlrdVVZSkZjMmFDdloyZkJoRWRJamVfQUl0c016MDBrcEVQc2FFak42aHlfeFE1THk2dFJvNXVzLUI2TW5xZVRqS1FJMDVSclZyNDFhZkJ0NkQ2Yi1SRkV2a1dyeFJsYlZ1UHJfc25kc2NCc09yRVhhZlpnVGR3?oc=5",
+    "topic": "Brent crude"
+   },
+   {
+    "title": "OPEC+ Likely to Stick With Plan for Quotas, Delegates Say",
+    "source": "EnergyNow.com",
+    "published": "2026-11-23 13:02 UTC",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0NrTDVfN2U2SFNYc2E0OUp1Sm53UHV1S2ZpWTVaMnVJbmF1ZWVGWlJSNHZwNEpjT2QwMGh4ZWplYURDZUVZUmlOU0JQUTY1b2kwRXpkZWs3M2tYMG5GVVJxanJTZ1FWTUp0LVNDTjZMVXEzMU5KQ2ozeDhZNlkyQ0xHS2ZCcmRkcFV6OHFKbw?oc=5",
+    "topic": "OPEC+ oil output"
    }
   ],
   "errors": []
